@@ -22,7 +22,13 @@ TODO 仮。あとで実際の内容にあわせて更新すること。
 ... はもういらないよね？
 
 #### Debian GNU/Linux
+
+rbenv の導入解説になる？
+
 #### CentOS
+
+rbenv の導入解説になる？
+
 #### Ubuntu
 
 rbenv の導入解説になる？
