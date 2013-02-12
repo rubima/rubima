@@ -10,30 +10,29 @@ TODO 仮。あとで実際の内容にあわせて更新すること。
 
 本稿は Rubyist Magazine 常設記事です。
 
-#### 目次
+### Ruby のインストール
 
-- [開発環境の構築](#environment)
-- [おすすめの学習方法](#howtostudy)
-- [知っておくべきライブラリやフレームワークの軽い紹介](#libraries)
-- [情報の入手方法](#information)
-- [コミュニティ／勉強会](#communities)
-- [まとめ](#conclusion)
+まずは開発できる環境を整えたいと思います。各環境ごとに代表的な Ruby のインストール方法を説明します。
 
-<a id="#environment"></a>
-#### 開発環境の構築
+#### Windows XP, Vista, 7, 8
 
-まずは開発できる環境を整えたいと思います。
 
-ここでは執筆時点で最もモダンだと僕の考える方法で環境構築をしてみます。
+#### Cygwin
 
-##### マシンの準備
+... はもういらないよね？
+
+#### Debian GNU/Linux
+#### CentOS
+#### Ubuntu
+
+rbenv の導入解説になる？
+
+#### Mac OS X
 
 Windowsでも動きますが、Macユーザーが極端に多いです。特に初級者の場合は教えてくれる人がなるべく多い環境を選ぶ方がいいのでMacをおすすめします。
 
 勉強会で大人気のMacBook Airですが、だいぶ安く買えるようになりました。  
 ruby系の勉強会に行くと、参加者の9割はMacで、そのうち半数以上がAirということもざらです。
-
-<iframe src="http://rcm-jp.amazon.co.jp/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=223soft-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B005DPEWNS" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
 
 ここから先はMac OS X 10.7 (Lion)の環境を対象にして進めてしまいます。
 
@@ -102,6 +101,7 @@ rubyで言うと、以下の2つが主流です。
 
 [rbenv + ruby-buildのインストール方法](http://www.223soft.net/50)
 
+
 ##### エディタ
 
 以下のものが人気が高いみたいです。自分に合ったエディタを探してください。
@@ -123,10 +123,6 @@ gitでpushするだけでアプリケーションを公開でき、無料でも�
 サーバー構築ができる方はVPSやIaaSも検討されるといいと思います。  
 apache or nginx + [passenger](http://www.modrails.com/)がお手軽です。
 
-ちなみにこのブログは<a href="http://px.a8.net/svt/ejp?a8mat=1O9JBT+2M2M7U+D8Y+BWVTE" target="_blank">さくらのVPS</a>
-<img border="0" width="1" height="1" src="http://www10.a8.net/0.gif?a8mat=1O9JBT+2M2M7U+D8Y+BWVTE" alt="">にインストールしたapache + passengerで動いています。
-
-<a id="#howtostudy"></a>
 #### おすすめの学習方法
 
 手っ取り早く体系立てて学ぶには本を読むのがいいと思います。rubyの書籍はたくさんありますが、中でもおすすめの2冊を紹介します。
