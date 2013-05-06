@@ -37,7 +37,7 @@ GuildCafe Costa
 
 ![002](fukuokarubykaigi01/002.jpg)
 
-\#RubyFriends の紹介に始まり、福岡ではなかなか聞くことが出来ない Ruby 界隈の最新事情を話して頂きました。
+\#RubyFriends の紹介に始まり、福岡ではなかなか聞くことが出来ない Ruby 界隈の最新事情を話していただきました。
 
 ソフトウェアはどこにあるのか、という哲学的な問題提起に対し、「ソフトウェアは頭の中にあり、ソフトウェア開発とは、エンドユーザーのメンタルモデルをソースコードとして表現すること」と定義し、2012 年後半に Rails 界隈を賑わせた DCI についてお話しいただきました。
 
@@ -52,10 +52,10 @@ GuildCafe Costa
 
 ![003](http://f367.oreoka.com/photos/269/medium.jpg?1362615368)
 
-Ruby 2.0 の新機能紹介を [PB memo](http://d.hatena.ne.jp/nagachika/ "PB memo") の著者の @nagachika さんに行って頂きました。
+Ruby 2.0 の新機能紹介を [PB memo](http://d.hatena.ne.jp/nagachika/ "PB memo") の著者の @nagachika さんに行っていただきました。
 Yokohama.rbの発表ではなかった内容が追加されており、
 会議当日はまだ Ruby 2.0 はリリース前で、Module#prepend や消えるかもしれなかった Refinements について説明していただきました。
-メインの Enumerator::Lazy に関してはライブコーディング形式で解説して頂きました。
+メインの Enumerator::Lazy に関してはライブコーディング形式で解説していただきました。
 
 
 ## [初心者エンジニアのシステム構築失敗談](http://www.slideshare.net/blueskyblue/ss-15438284)
@@ -94,11 +94,11 @@ Sencha Touch でクロスドメイン通信をする話をしていただきま�
 ![006](http://f367.oreoka.com/photos/281/medium.jpg?1362615509)
 
 @wats さんも @nagachika さん同様に、Ruby 2.0 で導入された Bitmap Marking GC についてお話いただきました。
-シンプルな Mark & Sweep 方式から Bitmap Marking GC へと変更されることで Unicorn や Passenger のメモリ消費量減少が見込まれることなどをお話し頂きました。
+シンプルな Mark & Sweep 方式から Bitmap Marking GC へと変更されることで Unicorn や Passenger のメモリ消費量減少が見込まれることなどをお話しいただきました。
 
 ## LT
 
-その後以下の8名の方にライトニングトークをして頂きました。
+その後以下の8名の方にライトニングトークをしていただきました。
 
 1. Hiroto Imoto - 新卒研修で初めてRails開発をしたときに感じた事
   * 資料 : [https://docs.google.com/presentation/pub?id=1JNSSZk4LlV8pHPQLtYVGNcFE-4LSqCzjZ4SDADSTsvU#slide=id.p](https://docs.google.com/presentation/pub?id=1JNSSZk4LlV8pHPQLtYVGNcFE-4LSqCzjZ4SDADSTsvU#slide=id.p)
@@ -130,5 +130,3 @@ Railsの発表がかなり多くなるのではと思っていたのですが、
 本当にさいごですが、
 福岡Ruby会議01の参加者の皆様に百万の感謝を
 Thanks a million for all Fukuoka regional ruby kaigi participants !
-
-
