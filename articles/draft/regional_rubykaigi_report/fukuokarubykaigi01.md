@@ -33,7 +33,7 @@ GuildCafe Costa
 * 発表者
     * @kakutani
 * 資料
-    * https://speakerdeck.com/kakutani/dci-let-the-code-do-the-talking
+    * [https://speakerdeck.com/kakutani/dci-let-the-code-do-the-talking](https://speakerdeck.com/kakutani/dci-let-the-code-do-the-talking)
 
 ![002](fukuokarubykaigi01/002.jpg)
 
@@ -54,7 +54,7 @@ GuildCafe Costa
 * 発表者
     * @nagachika
 * 資料
-    * https://speakerdeck.com/nagachika/dai-duo-narubyisthefalsedao-enumerator-lazy-falseshi-ikata-at-fu-gang-rubyhui-yi-01
+    * [https://speakerdeck.com/nagachika/dai-duo-narubyisthefalsedao-enumerator-lazy-falseshi-ikata-at-fu-gang-rubyhui-yi-01](https://speakerdeck.com/nagachika/dai-duo-narubyisthefalsedao-enumerator-lazy-falseshi-ikata-at-fu-gang-rubyhui-yi-01)
 
 ![003](http://f367.oreoka.com/photos/269/medium.jpg?1362615368)
 
@@ -107,28 +107,27 @@ Sencha Touch でクロスドメイン通信をする話をしていただきま�
 その後以下の8名の方にライトニングトークをして頂きました。
 
 1. Hiroto Imoto - 新卒研修で初めてRails開発をしたときに感じた事
-    * 資料 : https://docs.google.com/presentation/pub?id=1JNSSZk4LlV8pHPQLtYVGNcFE-4LSqCzjZ4SDADSTsvU#slide=id.p
+  * 資料 : [https://docs.google.com/presentation/pub?id=1JNSSZk4LlV8pHPQLtYVGNcFE-4LSqCzjZ4SDADSTsvU#slide=id.p](https://docs.google.com/presentation/pub?id=1JNSSZk4LlV8pHPQLtYVGNcFE-4LSqCzjZ4SDADSTsvU#slide=id.p)
 
 2. Koichi Saito - Rails高速化〜isuconを題材にして〜
-    * 資料 : https://docs.google.com/presentation/pub?id=1UC83Ja9T5Q_Y103GiiQamD6UILfqu290wj8T0CovJUQ#slide=id.p
-
+  * 資料 : [https://docs.google.com/presentation/pub?id=1UC83Ja9T5Q_Y103GiiQamD6UILfqu290wj8T0CovJUQ#slide=id.p
+    ](https://docs.google.com/presentation/pub?id=1UC83Ja9T5Q_Y103GiiQamD6UILfqu290wj8T0CovJUQ#slide=id.p
+    )
 3. Manabu Matsuzaki - 仕事でRubyを使う為にやった事あれこれ
-    * 資料 : http://www.slideshare.net/matsumana0101/ruby01-20121201-lt
-
+  * 資料 : [http://www.slideshare.net/matsumana0101/ruby01-20121201-lt](http://www.slideshare.net/matsumana0101/ruby01-20121201-lt)
 4. @ayato\_p - JavaプログラマがRubyに惚れたら
-    * 資料 : https://speakerdeck.com/ayato0211/javapuroguramagarubynibu-retara
-
+  * 資料 : [https://speakerdeck.com/ayato0211/javapuroguramagarubynibu-retara](https://speakerdeck.com/ayato0211/javapuroguramagarubynibu-retara)
 5. Shigeichiro Yamasaki - Rubyで フィジカル・コンピューティング
-    * 資料 : http://www.slideshare.net/11ro_yamasaki/fukuoka-rubykaigi01-yamasaki-lt
+    * 資料 : [http://www.slideshare.net/11ro_yamasaki/fukuoka-rubykaigi01-yamasaki-lt](http://www.slideshare.net/11ro_yamasaki/fukuoka-rubykaigi01-yamasaki-lt)
 
 6. @kiwanami - 非Web系会社でのRuby適用事例いろいろ
-    * http://www.slideshare.net/MasashiSakurai/webruby
+    * 資料 : [http://www.slideshare.net/MasashiSakurai/webruby](http://www.slideshare.net/MasashiSakurai/webruby)
 
 7. @yotii23 - RailsGirlsと手榴弾とわたし
-    * 資料 : https://speakerdeck.com/yotii23/railsgirlstoshou-liu-dan-towatasi
+    * 資料 : [https://speakerdeck.com/yotii23/railsgirlstoshou-liu-dan-towatasi](https://speakerdeck.com/yotii23/railsgirlstoshou-liu-dan-towatasi)
 
 8. @kazuph - みんなでProjectEuler in Ruby
-    * 資料 : http://kazuph.github.com/presentation/fukuoka_ruby_kaigi/#/
+    * 資料 : [http://kazuph.github.com/presentation/fukuoka_ruby_kaigi/#/](http://kazuph.github.com/presentation/fukuoka_ruby_kaigi/#/)
 
 ## さいごに
 福岡の人の発表が多く、また様々な分野の方に発表して頂けたこともあり、色々なRubyの使い方が紹介されました。
