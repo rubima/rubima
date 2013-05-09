@@ -93,7 +93,7 @@ Sencha Touch でクロスドメイン通信をする話をしていただきま�
 * 発表者
     * @wats
 * 資料
-    * 
+    * [http://www.slideshare.net/atsushiwada/bitmap-marking-gc](http://www.slideshare.net/atsushiwada/bitmap-marking-gc)
 
 ![006](http://f367.oreoka.com/photos/281/medium.jpg?1362615509)
 
