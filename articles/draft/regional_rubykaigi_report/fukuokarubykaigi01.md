@@ -71,7 +71,7 @@ Yokohama.rbで一度発表された内容に一部追加した内容の発表と
 これがベストではないとおもっていますが、チームの中で考えた今のベターな構成だと思ってます。
 今回はユーザーの入力値のvalidationを行う場所としてcontrollerを選びましたが、ユーザーの入力値のvalidationがcontrollerの責務かというとちょっと違うかなあとも思います。
 じゃあどこがベストなのと突っ込まれると答えられないですが。。。。
-懇親会で、controllerでvalidationするというよりは、ユーザーの入力値のvalidationをARとは別に行い、validationを行う場所としてcontrollerを選んだというほうが良さそうとインプット頂き、確かにそうだなあと思います。
+懇親会で、controllerでvalidationするというよりは、ユーザーの入力値のvalidationをARとは別に行い、validationを行う場所としてcontrollerを選んだというほうが良さそうとインプット頂き、確かにそうだなあと思います。(本人談)
 
 ## Sencha Touchの本を書いたよ
 
@@ -127,6 +127,10 @@ Sencha Touch でクロスドメイン通信をする話をしていただきま�
 
 8. @kazuph - みんなでProjectEuler in Ruby
   * 資料 : [http://kazuph.github.com/presentation/fukuoka_ruby_kaigi/#/](http://kazuph.github.com/presentation/fukuoka_ruby_kaigi/#/)
+
+様々な分野からの発表があり、盛りだくさんの内容となりました。
+普段Web系の人からRailsの話を聞くことが多かったので、フィジカル コンピューティングやJRubyの話は新鮮に感じられました。
+
 
 ## さいごに
 福岡の人の発表が多く、また様々な分野の方に発表して頂けたこともあり、色々なRubyの使い方が紹介されました。
