@@ -97,7 +97,7 @@ Sencha Touch でクロスドメイン通信をする話をしていただきま�
 ![006](http://f367.oreoka.com/photos/281/medium.jpg?1362615509)
 
 @wats さんも @nagachika さん同様に、Ruby 2.0 で導入された Bitmap Marking GC についてお話いただきました。
-シンプルな Mark & Sweep 方式から Bitmap Marking GC へと変更されることで Unicorn や Passenger のメモリ消費量減少が見込まれることなどをお話しいただきました。
+シンプルな Mark & Sweep 方式から Bitmap Marking GC へと変更されることで Unicorn のメモリ消費量減少が見込まれることなどをお話しいただきました。
 
 ## LT
 
