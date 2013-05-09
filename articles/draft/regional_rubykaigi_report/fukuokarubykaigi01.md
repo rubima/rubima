@@ -106,17 +106,11 @@ Sencha Touch でクロスドメイン通信をする話をしていただきま�
 1. Hiroto Imoto - 新卒研修で初めてRails開発をしたときに感じた事
   * 資料 : [https://docs.google.com/presentation/pub?id=1JNSSZk4LlV8pHPQLtYVGNcFE-4LSqCzjZ4SDADSTsvU#slide=id.p](https://docs.google.com/presentation/pub?id=1JNSSZk4LlV8pHPQLtYVGNcFE-4LSqCzjZ4SDADSTsvU#slide=id.p)
 
-  paperboy&co.さんで実際に行った研修の内容を紹介して頂きました。期限を守ってサービスをローンチすることをしっかりやることを
-
 2. Koichi Saito - Rails高速化〜isuconを題材にして〜
   * 資料 : [https://docs.google.com/presentation/pub?id=1UC83Ja9T5Q_Y103GiiQamD6UILfqu290wj8T0CovJUQ#slide=id.p](https://docs.google.com/presentation/pub?id=1UC83Ja9T5Q_Y103GiiQamD6UILfqu290wj8T0CovJUQ#slide=id.p)
 
-  2012年11月3日に行われた[isucon2](http://blog.livedoor.jp/techblog/archives/67693255.html)のアプリを題材にして、Railsの高速化に関するtipsを紹介して頂きました。
-
 3. Manabu Matsuzaki - 仕事でRubyを使う為にやった事あれこれ
   * 資料 : [http://www.slideshare.net/matsumana0101/ruby01-20121201-lt](http://www.slideshare.net/matsumana0101/ruby01-20121201-lt)
-
-  Rubyを会社で使っていくためのノウハウを紹介して頂きました。Rubyを使いたいけど色々なしがらみがあって使えない時は、少しづつRubyのプロダクトを使っていくのが良さそうですね。
 
 4. @ayato\_p - JavaプログラマがRubyに惚れたら
   * 資料 : [https://speakerdeck.com/ayato0211/javapuroguramagarubynibu-retara](https://speakerdeck.com/ayato0211/javapuroguramagarubynibu-retara)
@@ -125,21 +119,14 @@ Sencha Touch でクロスドメイン通信をする話をしていただきま�
 5. Shigeichiro Yamasaki - Rubyで フィジカル・コンピューティング
   * 資料 : [http://www.slideshare.net/11ro_yamasaki/fukuoka-rubykaigi01-yamasaki-lt](http://www.slideshare.net/11ro_yamasaki/fukuoka-rubykaigi01-yamasaki-lt)
 
-  Rubyを使ってフィジカル コンピューティングを行った事例の紹介をして頂きました。 mrubyではなく、MRIを使ってるのがGCのタイミングをずらすなど、チューニングをやられていてRubyの違った側面が見れてとても参考になりました。
-
 6. @kiwanami - 非Web系会社でのRuby適用事例いろいろ
   * 資料 : [http://www.slideshare.net/MasashiSakurai/webruby](http://www.slideshare.net/MasashiSakurai/webruby)
-
 
 7. @yotii23 - RailsGirlsと手榴弾とわたし
   * 資料 : [https://speakerdeck.com/yotii23/railsgirlstoshou-liu-dan-towatasi](https://speakerdeck.com/yotii23/railsgirlstoshou-liu-dan-towatasi)
 
-  東京で開催されたRailsGirlsの紹介をして頂きました。
-
 8. @kazuph - みんなでProjectEuler in Ruby
   * 資料 : [http://kazuph.github.com/presentation/fukuoka_ruby_kaigi/#/](http://kazuph.github.com/presentation/fukuoka_ruby_kaigi/#/)
-
-  Gaiaxで取り組んでいるProjectEulerについて紹介して頂きました。
 
 ## さいごに
 福岡の人の発表が多く、また様々な分野の方に発表して頂けたこともあり、色々なRubyの使い方が紹介されました。
