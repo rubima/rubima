@@ -93,7 +93,7 @@ Sencha Touch でクロスドメイン通信をする話をしていただきま�
 * 発表者
     * @wats
 * 資料
-    * 
+    * [http://www.slideshare.net/atsushiwada/bitmap-marking-gc](http://www.slideshare.net/atsushiwada/bitmap-marking-gc)
 
 ![006](http://f367.oreoka.com/photos/281/medium.jpg?1362615509)
 
@@ -134,6 +134,7 @@ Sencha Touch でクロスドメイン通信をする話をしていただきま�
 特に山崎先生が発表されたRubyを使ったフィジカル コンピューティングの事例はエキサイティングな内容でした。
 mrubyではなく、MRIを使っているのは驚きでした。
 GCのタイミングをずらすなど、かなりパフォーマンスチューニングもされており、Rubyの違った側面が見れてとても参考になりました。
+
 
 ## さいごに
 福岡の人の発表が多く、また様々な分野の方に発表して頂けたこともあり、色々なRubyの使い方が紹介されました。
