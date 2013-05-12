@@ -49,7 +49,6 @@ Ruby で言うと、以下の2つが主流です。
 最近人気が高まってきているのは rbenv の方ですが、
 身近に教えてくれる人がいるのなら、その方に合わせるのをおすすめします。
 
-
 ### 主なインストールの手段
 
 #### Windows
@@ -63,19 +62,32 @@ Ruby で言うと、以下の2つが主流です。
 
 デフォルトで Ruby が入っていますが、バージョンが 1.8 系と大変古いです。
 
-[RVM](https://rvm.io) と [rbenv](https://github.com/sstephenson/rbenv/) + [ruby-build](https://github.com/sstephenson/ruby-build) 等の導入を検討してください。
+- [RailsInstaller](http://railsinstaller.org)
 
-導入方法はそれぞれのサイトを参照してください。
+バージョン切り替えが必要な場合は [RVM](https://rvm.io) や [rbenv](https://github.com/sstephenson/rbenv/) + [ruby-build](https://github.com/sstephenson/ruby-build) 等の導入を検討してください。
 
+rbenv を使ったインストール方法については [OS X で rbenv を使って ruby 1.9.3 or 2.0.0 の環境を作る](http://qiita.com/items/9dd797f42e7bea674705) が参考になります。
 
 #### Linux 等の Unix 系 OS
 
-各ディストリビューションのパッケージマネージャ (apt, yum...etc.) でインストールできる Ruby は 1.8 系の古いものであることが多いです。
+各ディストリビューションのパッケージマネージャ (apt, yum... etc.) でインストールできる Ruby は 1.8 系の古いものであることが多いです。
 
 [RVM](https://rvm.io) と [rbenv](https://github.com/sstephenson/rbenv/) + [ruby-build](https://github.com/sstephenson/ruby-build) 等の導入を検討してください。
 
 導入方法はそれぞれのサイトを参照してください。
 
+[OS X で rbenv を使って ruby 1.9.3 or 2.0.0 の環境を作る](http://qiita.com/items/9dd797f42e7bea674705) が参考になりますが、Mac 環境向けの記事なので、
+以下 Ubuntu を対象に補足します。Ubuntu 以外の Linux, Unix 系 OS でも同様ですが、パッケージマネージャごとにパッケージ名が異なります。
+
+- brew, Xcode は Mac 用なので、インストール *しないでください*
+- デフォルトで GCC や Git などが入っていないので sudo apt-get install build-essential git autoconf でインストールします
+- ビルド時に必要なライブラリを sudo apt-get zlib1g-dev libyaml-dev libreadline-dev libssl-dev でインストールします
+- Linux では /etc/paths はありませんので、無視してください
+- **ruby-build を使う** の部分は以下のように読み替えてください (RUBY_CONFIGURE_OPTS の指定が不要です)
+
+    $ rbenv install 1.9.3-p395
+    $ rbenv install 2.0.0-p0
+    $ rbenv shell 1.9.3-p395
 
 ### エディタ
 
