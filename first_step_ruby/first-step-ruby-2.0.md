@@ -60,11 +60,11 @@ Ruby で言うと、以下の2つが主流です。
 
 #### Mac OS X
 
-デフォルトで Ruby が入っていますが、バージョンが 1.8 系と大変古いです。
+デフォルトで Ruby が入っていますが、バージョンが 1.8 系と大変古いです。新しいバージョンの Ruby は以下の方法などでインストールができます。
 
 - [RailsInstaller](http://railsinstaller.org)
 
-バージョン切り替えが必要な場合は [RVM](https://rvm.io) や [rbenv](https://github.com/sstephenson/rbenv/) + [ruby-build](https://github.com/sstephenson/ruby-build) 等の導入を検討してください。
+バージョン切り替えが必要な場合は RailsInstaller と一緒にインストールされる [RVM](https://rvm.io) を利用したり、 [rbenv](https://github.com/sstephenson/rbenv/) + [ruby-build](https://github.com/sstephenson/ruby-build) 等の導入を検討してください。
 
 rbenv を使ったインストール方法については [OS X で rbenv を使って ruby 1.9.3 or 2.0.0 の環境を作る](http://qiita.com/items/9dd797f42e7bea674705) が参考になります。
 
