@@ -198,5 +198,8 @@ Kotlin という JetBrains 社が開発したプログラミング言語を @pat
 ### 小西雅也  
 Ruby で FizzBuzz を実装するとき、どのような方法が良いのか調べたことを小西さんが発表されました。小西さんは Fixnum クラスに新しいメソッドを追加して FizzBuzz を実装する方法（オープンクラスによる実装方法）や、Ruby 2.0 から加わった Module#refine と main.using を使う方法を紹介されました。コードが掲載されたスライド（[http://www.slideshare.net/mkonishi1981/fizzbuzzruby](http://www.slideshare.net/mkonishi1981/fizzbuzzruby)）が SlideShare にアップロードされており、Module#refine の使い方の勉強になりますので、写経すると良いと思います。
 
-# さいごに
+# 懇親会
+昨年と同じRyoutei 座スタジアムでの懇親会で、会場のプロジェクタを活かしてのLT大会を開催しました。
+飛び入り参加OKのLT大会で、大変盛り上がった懇親会となりました。
+
 
