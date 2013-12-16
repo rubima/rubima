@@ -46,7 +46,6 @@ count = 0
 fn = false
 last_hrule = false
 STDOUT.set_encoding(Encoding.locale_charmap)
-ARGF.set_encoding(Encoding::EUC_JP)
 ARGF.each do |line|
   matched = false
   line.gsub!(空白抜け) do
