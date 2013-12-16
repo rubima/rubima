@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 # 正規表現エンジンに鬼車必須
 # [ruby-list:41932]を参考にした。
+#使い方 チェックしたい Hiki ソースをテキスト(例 hoge.txt) に保存。
+#$ ruby rubima-lint.rb hoge.txt でエラー行数・エラー内容が出力されます。
 
 非ascii = '[^[:ascii:]]'
 ascii = '[\w&&[:ascii:]]'
