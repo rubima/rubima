@@ -100,6 +100,9 @@ end
 if fn and not last_hrule
   count += 1
   puts "\e[7m脚注があるのに末尾に「----」がない。\e[m"
+elsif not fn and last_hrule
+  count += 1
+  puts "\e[7m脚注がないのに末尾に「----」がある。\e[m"
 end
 
 if 0 < count
