@@ -70,6 +70,19 @@ ARGF.each do |line|
     count += 1
     "\e[33m#{$&}\e[m"
   end
+  line.gsub!(/(?<left>\[\[(.*?\|)?)(?<link>.*)(?<right>\]\])/) do
+    m = $~
+    case m[:link]
+    when %r!\Ahttps?://!
+      $&
+    when /[^0-9A-Za-z\-_]/
+      matched = true
+      count += 1
+      "#{m[:left]}\e[34m#{m[:link]}\e[m#{m[:right]}"
+    else
+      $&
+    end
+  end
   if matched
     puts "#{ARGF.lineno}:#{line}"
   end
