@@ -47,6 +47,7 @@ union = [
 count = 0
 fn = false
 last_hrule = false
+toc_check = false
 STDOUT.set_encoding(Encoding.locale_charmap)
 ARGF.each do |line|
   matched = false
@@ -83,6 +84,12 @@ ARGF.each do |line|
       $&
     end
   end
+  line.gsub!(/\{\{toc\}\}/) do
+    matched = true
+    count += 1
+    toc_check = true
+    "\e[35m#{$&}\e[m"
+  end
   if matched
     puts "#{ARGF.lineno}:#{line}"
   end
@@ -104,6 +111,8 @@ elsif not fn and last_hrule
   count += 1
   puts "\e[7m脚注がないのに末尾に「----」がある。\e[m"
 end
+
+puts "\e[35m{{toc}}\e[mの代わりに\e[35m{{toc_here}}\e[mを使ってください" if toc_check
 
 if 0 < count
   puts "#{count} warning(s)"
