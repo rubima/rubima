@@ -13,13 +13,12 @@
 
 ### 主催
 
-- Okinawarb
+![okinawarb-logo](okinawarubykaigi01/okinawarb-logo.png)
 
-- Ryudai.rb
+![ryudairb-logo](okinawarubykaigi01/ryudairb-logo.png)
 
-- Ryukyu.rb
+![ryukyurb-logo](okinawarubykaigi01/ryukyurb-logo.png)
 
-\#ロゴを後ではりつけること
 
 ### 協力
 
