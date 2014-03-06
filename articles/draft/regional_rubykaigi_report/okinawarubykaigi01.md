@@ -43,8 +43,52 @@
 
 ## 沖縄県内のコミュニティ活動の紹介
 
+動画: [県内コミュニティ活動の紹介 (各3分〜5分)](http://www.ustream.tv/recorded/44349362)
+
 沖縄のRubyコミュニティだけでなく、県内で活動するコミュニティ紹介のLTも行いました。
 ものづくりのコミュニティから、エンジニアの集うシェアハウスまでの計5つのコミュニティの発表を行いました
+
+### Ryukyu Rubyist Rookies
+[@repserc](https://twitter.com/repserc)さんによる[Ryukyu Rubyist Rookies](https://www.facebook.com/groups/ruby.okinawa/)の紹介でした。(発表資料: [Ryukyu Rubyist Rookies 紹介 @ 沖縄Ruby会議01](http://www.slideshare.net/repserc/ryukyu-rubyist-rookies))
+
+「最終的な目標として"Good bye blue monday"、月曜日をRubyで楽しく過ごして行きましょう!」とおっしゃっていたのが印象的でした。
+Rubyの初心者、プログラミング初心者が多いのが特徴で、「ベーマガ/Cマガみたいなお題をつくっていきたい」「初心者から中級者へ」と互いに教えあっている様子を紹介してくださいました。
+
+後日、[沖縄Ruby会議で発表できなかったこと](http://repserc.hatenablog.com/entry/2014/03/04/164535)を教えていただきました。
+
+### Ryudai.rb
+[@_simanman](https://twitter.com/_simanman)さんによる[ryudai.rb](http://lingr.com/room/ryudairb)の紹介でした。
+
+沖縄Ruby会議01の日がちょうど設立1周年。コミュニティの維持についての悩みを話していました。
+
+### Okinawa.rb
+[@yasulab](https://twitter.com/yasulab)さんによる[Okinawa.rb](https://www.facebook.com/groups/okinawarb/)の紹介でした。
+
+毎週水曜日の夜、ギークハウス沖縄で行われているWeekly Meetupの様子と、ハッカソン、台風そん(台風の暴風域に入ってから抜けるまでの間行われているハッカソン、基本的に家で一人で行うのでエクストリーム・ボッチソンともいう)の様子を紹介していただきました。
+
+Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄へお越しの際はぜひご参加ください :) (参考: [那覇空港からギークハウス沖縄までの行き方](https://speakerdeck.com/yasulab/na-ba-kong-gang-karagikuhausuchong-nawa-madefalsexing-kifang))
+
+### ハッカーズチャンプルー
+沖縄県内IT系コミュニティの夏祭り、ハッカーズチャンプルーについて、[@k_nishijima](https://twitter.com/k_nishijima)さんに発表&告知して頂きました。(発表資料: [20140301ハッカーズチャンプルー告知lt](http://www.slideshare.net/KoichiroNishijima/20140301lt)、ブログ: [K Nishijimaのぶろぐ: 沖縄Ruby会議とMusic Atlas 2014に行ってきました](http://k-nishijima.blogspot.jp/2014/03/rubymusic-atlas-2014.html))
+
+その場でMatzさん、増井さんに「また沖縄きたいですか?どうですか!?」と呼びかけ、OK(仮)をもらって盛り上がっていました。
+ハッカーズチャンプルーは今年(2014年)7/18〜7/19に開催されるようです。
+
+### gFab
+又吉さんから、ものづくりコミュニティgFabの紹介でした。
+楽しく作るデジタルファブリケーションの場、ということで、台風で吹き飛ばされてしまった看板を作りなおしたご自身の体験などを紹介していました。
+「メーカーブームに乗ってレーザーカッターや、3Dプリンター買っちゃった、どうしよう」と困っているかたは、gFabのようなコミュニティをはじめてみると面白くなるかもしれませんね!
+
+## ギークハウス沖縄 @kimihito_
+
+* 発表者
+    * [@kimihito_](https://twitter.com/kimihito_)
+* 資料
+    * [ギークハウス沖縄](https://speakerdeck.com/kimihito_/gikuhausuchong-nawa-in-chong-nawa-rubyhui-yi-01)
+
+![geeoki](okinawarubykaigi01/geeoki.jpg)
+
+エンジニアやインターネット好きが集うシェアハウスである[ギークハウス](http://geekhouse.tumblr.com/)の中でも日本最南端である、[ギークハウス沖縄](http://text.geeoki.com/)の活動のお話していただきました。Okinawa.rbの毎週のMeetupの会場になっていたり、Rubyでロボットの操作ができるフレームワークである[Artoo](http://artoo.io/)を使ってRubyでARDroneを飛ばしたりなど、部室のような空気が残るギークハウス沖縄の紹介でした。
 
 
 ### ギークハウス沖縄 @kimihito_
@@ -73,4 +117,3 @@
 ![nuruby](okinawarubykaigi01/nuruby.jpg)
 
 北海道からお越しの[@PUPRL](https://twitter.com/PUPRL)さんは、「和室でぬるくRubyをもくもくする」[ぬRuby](http://nuruby.org/)という活動の紹介の地域Rubyに参加することの良さについて語ってくださいました。はじめてのLTであったにも関わらず、ぬRubyの魅力がしっかり伝わったようで、LT後にはぬRubyに参加したいとの言葉をたくさん見受けることができました。
-
