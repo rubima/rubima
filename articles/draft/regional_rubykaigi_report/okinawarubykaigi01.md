@@ -47,16 +47,8 @@
 ものづくりのコミュニティから、エンジニアの集うシェアハウスまでの計5つのコミュニティの発表を行いました
 
 
-## ギークハウス沖縄 @kimihito_
-
-* 発表者
-    * [@kimihito_](https://twitter.com/kimihito_)
-* 資料
-    * [ギークハウス沖縄](https://speakerdeck.com/kimihito_/gikuhausuchong-nawa-in-chong-nawa-rubyhui-yi-01)
-
-![geeoki](okinawarubykaigi01/geeoki.jpg)
-
-エンジニアやインターネット好きが集うシェアハウスである[ギークハウス](http://geekhouse.tumblr.com/)の中でも日本最南端である、[ギークハウス沖縄](http://text.geeoki.com/)の活動のお話していただきました。Okinawa.rbの毎週のMeetupの会場になっていたり、Rubyでロボットの操作ができるフレームワークである[Artoo](http://artoo.io/)を使ってRubyでARDroneを飛ばしたりなど、部室のような空気が残るギークハウス沖縄の紹介でした。
+### ギークハウス沖縄 @kimihito_
+[@kimihito_](https://twitter.com/kimihito_)さんによるギークハウス沖縄の紹介では、全国におよそ17ヶ所ある[ギークハウス](http://geekhouse.tumblr.com/)の説明と、[ギークハウス沖縄](http://text.geeoki.com/)の活動のお話していただきました。Okinawa.rbの毎週のMeetupの会場になっていたり、Rubyでロボットの操作ができるフレームワークである[Artoo](http://artoo.io/)を使ってRubyでARDroneを飛ばしたりなど、部室のような空気が残るギークハウス沖縄の紹介でした。
 
 
 ## 「rcairoでものづくり」@mgwsuzuki
