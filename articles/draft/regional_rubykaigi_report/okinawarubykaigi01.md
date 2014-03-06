@@ -79,6 +79,18 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 楽しく作るデジタルファブリケーションの場、ということで、台風で吹き飛ばされてしまった看板を作りなおしたご自身の体験などを紹介していました。
 「メーカーブームに乗ってレーザーカッターや、3Dプリンター買っちゃった、どうしよう」と困っているかたは、gFabのようなコミュニティをはじめてみると面白くなるかもしれませんね!
 
+## ギークハウス沖縄 @kimihito_
+
+* 発表者
+    * [@kimihito_](https://twitter.com/kimihito_)
+* 資料
+    * [ギークハウス沖縄](https://speakerdeck.com/kimihito_/gikuhausuchong-nawa-in-chong-nawa-rubyhui-yi-01)
+
+![geeoki](okinawarubykaigi01/geeoki.jpg)
+
+エンジニアやインターネット好きが集うシェアハウスである[ギークハウス](http://geekhouse.tumblr.com/)の中でも日本最南端である、[ギークハウス沖縄](http://text.geeoki.com/)の活動のお話していただきました。Okinawa.rbの毎週のMeetupの会場になっていたり、Rubyでロボットの操作ができるフレームワークである[Artoo](http://artoo.io/)を使ってRubyでARDroneを飛ばしたりなど、部室のような空気が残るギークハウス沖縄の紹介でした。
+
+
 ## 「rcairoでものづくり」@mgwsuzuki
 
 * 発表者
