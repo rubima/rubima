@@ -57,7 +57,7 @@ Rubyの初心者、プログラミング初心者が多いのが特徴で、「�
 後日、[沖縄Ruby会議で発表できなかったこと](http://repserc.hatenablog.com/entry/2014/03/04/164535)を教えていただきました。
 
 ### Ryudai.rb
-[@simanman](https://twitter.com/_simanman)さんによる[ryudai.rb](http://lingr.com/room/ryudairb)の紹介でした。
+[@_simanman](https://twitter.com/_simanman)さんによる[ryudai.rb](http://lingr.com/room/ryudairb)の紹介でした。
 
 沖縄Ruby会議01の日がちょうど設立1周年。コミュニティの維持についての悩みを話していました。
 
