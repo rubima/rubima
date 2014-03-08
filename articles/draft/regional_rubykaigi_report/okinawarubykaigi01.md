@@ -97,6 +97,17 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 
 2Dグラフィックス用のCライブラリである[cairo](http://cairographics.org/)をRubyでバインディングした[rcairo](https://github.com/rcairo/rcairo)を使って、自動設計するプログラムをRubyで作成、1時間20分ほどで完成することができたそうです。今後はGithubに自動設計のプログラム公開し、パラメータをPull Requestすることで簡単にハコを作れるようにしたいということをおっしゃっていました。
 
+### 「組み込みにもiOSにもrubyで幸せ（仮）」@shumach217
+
+* 発表者
+    * [@shumach217](https://twitter.com/shumach217)
+* 資料
+    * [組み込みにもiOSにもrubyで幸せ（仮）](http://www.slideshare.net/shumach217/ruby01-31912722)
+
+![happy-ruby](okinawarubykaigi01/happy_ruby.jpg)
+
+組み込みで行われる実機テストを、手作業からRSpecとturnipを使った自動化に変更したお話から、iOSの開発においても同様なアプローチができるのではないかと考え、turnipを記述でiOSのデバイスをリモート操作できるようなテストフレームワークを作成中であるとおっしゃっていました
+
 ## Lightning Talks 2.5 + Sponsored Session
 
 ### 「きたのくにからこんにちぬー！」
