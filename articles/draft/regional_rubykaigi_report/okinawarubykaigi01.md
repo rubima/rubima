@@ -120,3 +120,15 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 ![nuruby](okinawarubykaigi01/nuruby.jpg)
 
 北海道からお越しの[@PUPRL](https://twitter.com/PUPRL)さんは、「和室でぬるくRubyをもくもくする」[ぬRuby](http://nuruby.org/)という活動の紹介の地域Rubyに参加することの良さについて語ってくださいました。はじめてのLTであったにも関わらず、ぬRubyの魅力がしっかり伝わったようで、LT後にはぬRubyに参加したいとの言葉をたくさん見受けることができました。
+
+
+### 「The Payment System by Ruby」ウェブペイ株式会社
+
+* 発表者
+    * [@sowawa](https://twitter.com/sowawa)
+* 資料
+    * なし
+
+![webpay](okinawarubykaigi01/webpay.jpg)
+
+開発者向けのクレジット決済サービスの[WebPay](https://webpay.jp/)を開発しているウェブペイ株式会社のスポンサーセッションでは、Rubyでセキュアなプログラミングを行う際の注意点をお話してくださりました。シンボルはGCされない問題があり、ユーザ入力をto_symすると問題が起きてしまうという例を取り上げ、シンボルの扱いに関してのお話がありました。5分という短いセッションながらも内容の濃いお話でした。
