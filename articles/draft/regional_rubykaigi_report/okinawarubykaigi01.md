@@ -30,6 +30,21 @@
 
 * [沖縄Ruby会議のtweetまとめ](http://togetter.com/li/636273)
 
+
+## ゲスト講演②
+
+### 「Rubyを使って3人/日でアプリをリリースしよう」
+
+* 発表者
+    * [@masuidrive](https://twitter.com/masudrive)
+* 資料
+    * なし
+
+![masuidrive](okinawarubykaigi01/masuidrive.jpg)
+
+風呂グラマーとして有名な@masuidriveさんには、[wri.pe](https://wri.pe/)を作っていくプロセス、リリースした後の運用部分などのお話を伺いました。自分が普段使えるものを作ろうと、3日では基本的なメモアプリの機能実装を行ったそうです。プレスを打つなど、運用、顧客対応、いろんなものがすごく広い範囲で見ることができ、何か小さなものでもいいからプロダクトを作ってみることを薦めていました。
+
+
 ## Lightning Talks 1 + Sponsored Session
 
 ### 「Rubyによるバッチ業務のストリーム処理化の設計と実装」@bash0C
