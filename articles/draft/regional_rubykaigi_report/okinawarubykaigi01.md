@@ -97,6 +97,19 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 
 2Dグラフィックス用のCライブラリである[cairo](http://cairographics.org/)をRubyでバインディングした[rcairo](https://github.com/rcairo/rcairo)を使って、自動設計するプログラムをRubyで作成、1時間20分ほどで完成することができたそうです。今後はGithubに自動設計のプログラム公開し、パラメータをPull Requestすることで簡単にハコを作れるようにしたいということをおっしゃっていました。
 
+
+### 「Rubyに何かをしゃべらせる」Yoichi Kobayashi
+
+* 発表者
+    * [Yoichi Kobayashi](http://www.linkedin.com/pub/yoichi-kobayashi/89/205/461)
+* 資料
+    * なし
+
+![talk-ruby](okinawarubykaigi01/talk_ruby.jpg)
+
+[Twilio](http://www.twilio.com/)とRubyを使って、ただひたすらオヤジギャクを喋らせる番号を取得したが、喋るオヤジギャクが本当に面白いものなのかというのをどう判定するかのアルゴリズムをRubyで考えたいというようなお話でした。オヤジギャクを扱いながらも、何をもって面白いのかを真面目に考察する発表に会場からは笑いが起こっていました。
+
+
 ### 「組み込みにもiOSにもrubyで幸せ（仮）」@shumach217
 
 * 発表者
