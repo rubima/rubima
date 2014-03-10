@@ -32,23 +32,34 @@
 
 ## Lightning Talks 1 + Sponsored Session (各10分)
 
-## 「Rubyによるバッチ業務のストリーム処理化の設計と実装」@bash0C
+### 「Rubyによるバッチ業務のストリーム処理化の設計と実装」@bash0C
 
 * 発表者
     * [@bash0C7](https://twitter.com/bash0C7)
 * 資料
     * [Rubyによるバッチ業務のストリーム処理化の設計と実装](https://speakerdeck.com/bash0c7/design-and-implement-batch-stream-processing-application-for-ruby)
 
-ログ収集ツールとして注目される[fluentd](http://fluentd.org)を使いストリームにバッチ業務を処理する手法を紹介して頂きました。通常はログ収集のみにつかわれることが多いfluentdですが、入出力のプラグインを自作することで解析されたwebストリームを受けて進捗確認のツールとして使用することが出来るそうです。プラグインは[RubyGem](https://www.ruby-lang.org/ja/libraries/)の形式で導入することが出来るため、手軽に機能を追加する出来るということをおっしゃていました。
+ログ収集ツールとして注目される[fluentd](http://fluentd.org)を使いストリームにバッチ業務を処理する手法を紹介して頂きました。
+通常はログ収集のみにつかわれることが多いfluentdですが、入出力のプラグインを自作することで解析されたwebストリームを受けて進捗確認のツールとして使用することが出来るそうです。
+プラグインは[RubyGem](https://www.ruby-lang.org/ja/libraries/)の形式で導入することが出来るため、手軽に機能を追加する出来るということをおっしゃていました。  
 
-## 「Emacsの普通の使い方」@libkinjo
+### 「Emacsの普通の使い方」@libkinjo
 
 * 発表者
     * [@libkinjo](https://twitter.com/libkinjo)
 * 資料
     * [Emacsの普通の使い方](http://kinjo.github.io/okrk01/#/title)
 
-Rubyにはirbやpryを使って対話式にプログラムを記述することが出来ますが、libkinjoさんはEmacsのscratchバッファでeLispと対話するようにRubyとも対話したいと考えました。comint.elとinf-ruby.elを使いEmacsバッファ内でRubyのコードを実行し結果を受け取るデモを実際に動かして頂きました。また「scratchバッファはEmacsと対話する聖域（サンクチュアリ）」や「Emacsはロマンの積み木」などカッコいい名言で会場を盛り上げて頂きました。
+Rubyにはirbやpryを使って対話式にプログラムを記述することが出来ますが、libkinjoさんはEmacsのscratchバッファでeLispと対話するようにRubyとも対話したいと考えました。
+comint.elとinf-ruby.elを使いEmacsバッファ内でRubyのコードを実行し結果を受け取るデモを実際に動かして頂きました。
+また「scratchバッファはEmacsと対話する聖域（サンクチュアリ）」や「Emacsはロマンの積み木」などカッコいい名言で会場を盛り上げて頂きました。  
+
+###「RyukyuFrogsとLexues Academyの話」株式会社レキサス
+
+* 発表者
+    * 山崎さん[株式会社レキサス](http://lexues.co.jp)
+
+沖縄県内の学生を育成するプロジェクト[RyukyuFrogs](http://www.ryukyu-frogs.com)と[Lexues Academy](http://academy.lexues.co.jp)の紹介でした。
 
 ## 沖縄県内のコミュニティ活動の紹介
 
