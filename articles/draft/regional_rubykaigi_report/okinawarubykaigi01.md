@@ -2,16 +2,16 @@
 
 沖縄で毎週開催されている Okinawa.rb の発起人である @yasulab さんが中心となって、沖縄初の「沖縄Ruby会議01」が開催されました。
 
-### 開催日
+## 開催日
 
 2013年3月1日 13:00-18:00
 
-### 開催場所
+## 開催場所
 
 琉球大学 工学部１号館 大教室 322 (本会場) & 321 (サテライト会場)
 
 
-### 主催
+## 主催
 
 ![okinawarb-logo](okinawarubykaigi01/okinawarb-logo.png)
 
@@ -20,19 +20,19 @@
 ![ryukyurb-logo](okinawarubykaigi01/ryukyurb-logo.png)
 
 
-### 協力
+## 協力
 
 日本Rubyの会、ギークハウス沖縄、株式会社レキサス、特定非営利活動法人軽量Rubyフォーラム、ウェブペイ株式会社
 
-### 公式タグ・Twitter
+## 公式タグ・Twitter
 
 \#okrk01
 
 * [沖縄Ruby会議のtweetまとめ](http://togetter.com/li/636273)
 
-## Lightning Talks 1 + Sponsored Session (各10分)
+## Lightning Talks 1 + Sponsored Session
 
-## 「Rubyによるバッチ業務のストリーム処理化の設計と実装」@bash0C
+### 「Rubyによるバッチ業務のストリーム処理化の設計と実装」@bash0C
 
 * 発表者
     * [@bash0C7](https://twitter.com/bash0C7)
@@ -46,7 +46,7 @@
 動画: [県内コミュニティ活動の紹介 (各3分〜5分)](http://www.ustream.tv/recorded/44349362)
 
 沖縄のRubyコミュニティだけでなく、県内で活動するコミュニティ紹介のLTも行いました。
-ものづくりのコミュニティから、エンジニアの集うシェアハウスまでの計5つのコミュニティの発表を行いました
+ものづくりのコミュニティから、エンジニアの集うシェアハウスまでの計5つのコミュニティの発表を行いました。
 
 ### Ryukyu Rubyist Rookies
 [@repserc](https://twitter.com/repserc)さんによる[Ryukyu Rubyist Rookies](https://www.facebook.com/groups/ruby.okinawa/)の紹介でした。(発表資料: [Ryukyu Rubyist Rookies 紹介 @ 沖縄Ruby会議01](http://www.slideshare.net/repserc/ryukyu-rubyist-rookies))
@@ -79,19 +79,14 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 楽しく作るデジタルファブリケーションの場、ということで、台風で吹き飛ばされてしまった看板を作りなおしたご自身の体験などを紹介していました。
 「メーカーブームに乗ってレーザーカッターや、3Dプリンター買っちゃった、どうしよう」と困っているかたは、gFabのようなコミュニティをはじめてみると面白くなるかもしれませんね!
 
-## ギークハウス沖縄 @kimihito_
 
-* 発表者
-    * [@kimihito_](https://twitter.com/kimihito_)
-* 資料
-    * [ギークハウス沖縄](https://speakerdeck.com/kimihito_/gikuhausuchong-nawa-in-chong-nawa-rubyhui-yi-01)
-
-![geeoki](okinawarubykaigi01/geeoki.jpg)
-
-エンジニアやインターネット好きが集うシェアハウスである[ギークハウス](http://geekhouse.tumblr.com/)の中でも日本最南端である、[ギークハウス沖縄](http://text.geeoki.com/)の活動のお話していただきました。Okinawa.rbの毎週のMeetupの会場になっていたり、Rubyでロボットの操作ができるフレームワークである[Artoo](http://artoo.io/)を使ってRubyでARDroneを飛ばしたりなど、部室のような空気が残るギークハウス沖縄の紹介でした。
+### ギークハウス沖縄 @kimihito_
+[@kimihito_](https://twitter.com/kimihito_)さんによるギークハウス沖縄の紹介では、全国におよそ17ヶ所ある[ギークハウス](http://geekhouse.tumblr.com/)の説明と、[ギークハウス沖縄](http://text.geeoki.com/)の活動のお話していただきました。Okinawa.rbの毎週のMeetupの会場になっていたり、Rubyでロボットの操作ができるフレームワークである[Artoo](http://artoo.io/)を使ってRubyでARDroneを飛ばしたりなど、部室のような空気が残るギークハウス沖縄の紹介でした。
 
 
-## 「rcairoでものづくり」@mgwsuzuki
+## Lightning Talks 2
+
+### 「rcairoでものづくり」@mgwsuzuki
 
 * 発表者
     * [@mgwsuzuki](https://twitter.com/mgwsuzuki)
@@ -102,8 +97,9 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 
 2Dグラフィックス用のCライブラリである[cairo](http://cairographics.org/)をRubyでバインディングした[rcairo](https://github.com/rcairo/rcairo)を使って、自動設計するプログラムをRubyで作成、1時間20分ほどで完成することができたそうです。今後はGithubに自動設計のプログラム公開し、パラメータをPull Requestすることで簡単にハコを作れるようにしたいということをおっしゃっていました。
 
+## Lightning Talks 2.5 + Sponsored Session
 
-## 「きたのくにからこんにちぬー！」
+### 「きたのくにからこんにちぬー！」
 
 * 発表者
     * [@PUPRL](https://twitter.com/PUPRL)
