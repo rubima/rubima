@@ -2,16 +2,16 @@
 
 沖縄で毎週開催されている Okinawa.rb の発起人である @yasulab さんが中心となって、沖縄初の「沖縄Ruby会議01」が開催されました。
 
-### 開催日
+## 開催日
 
 2013年3月1日 13:00-18:00
 
-### 開催場所
+## 開催場所
 
 琉球大学 工学部１号館 大教室 322 (本会場) & 321 (サテライト会場)
 
 
-### 主催
+## 主催
 
 ![okinawarb-logo](okinawarubykaigi01/okinawarb-logo.png)
 
@@ -20,17 +20,32 @@
 ![ryukyurb-logo](okinawarubykaigi01/ryukyurb-logo.png)
 
 
-### 協力
+## 協力
 
 日本Rubyの会、ギークハウス沖縄、株式会社レキサス、特定非営利活動法人軽量Rubyフォーラム、ウェブペイ株式会社
 
-### 公式タグ・Twitter
+## 公式タグ・Twitter
 
 \#okrk01
 
 * [沖縄Ruby会議のtweetまとめ](http://togetter.com/li/636273)
 
-## Lightning Talks 1 + Sponsored Session (各10分)
+
+## ゲスト講演②
+
+### 「Rubyを使って3人/日でアプリをリリースしよう」
+
+* 発表者
+    * [@masuidrive](https://twitter.com/masudrive)
+* 資料
+    * なし
+
+![masuidrive](okinawarubykaigi01/masuidrive.jpg)
+
+風呂グラマーとして有名な@masuidriveさんには、[wri.pe](https://wri.pe/)を作っていくプロセス、リリースした後の運用部分などのお話を伺いました。自分が普段使えるものを作ろうと、3日では基本的なメモアプリの機能実装を行ったそうです。プレスを打つなど、運用、顧客対応、いろんなものがすごく広い範囲で見ることができ、何か小さなものでもいいからプロダクトを作ってみることを薦めていました。
+
+
+## Lightning Talks 1 + Sponsored Session
 
 ### 「Rubyによるバッチ業務のストリーム処理化の設計と実装」@bash0C
 
@@ -66,7 +81,7 @@ comint.elとinf-ruby.elを使いEmacsバッファ内でRubyのコードを実行
 動画: [県内コミュニティ活動の紹介 (各3分〜5分)](http://www.ustream.tv/recorded/44349362)
 
 沖縄のRubyコミュニティだけでなく、県内で活動するコミュニティ紹介のLTも行いました。
-ものづくりのコミュニティから、エンジニアの集うシェアハウスまでの計5つのコミュニティの発表を行いました
+ものづくりのコミュニティから、エンジニアの集うシェアハウスまでの計5つのコミュニティの発表を行いました。
 
 ### Ryukyu Rubyist Rookies
 [@repserc](https://twitter.com/repserc)さんによる[Ryukyu Rubyist Rookies](https://www.facebook.com/groups/ruby.okinawa/)の紹介でした。(発表資料: [Ryukyu Rubyist Rookies 紹介 @ 沖縄Ruby会議01](http://www.slideshare.net/repserc/ryukyu-rubyist-rookies))
@@ -99,19 +114,14 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 楽しく作るデジタルファブリケーションの場、ということで、台風で吹き飛ばされてしまった看板を作りなおしたご自身の体験などを紹介していました。
 「メーカーブームに乗ってレーザーカッターや、3Dプリンター買っちゃった、どうしよう」と困っているかたは、gFabのようなコミュニティをはじめてみると面白くなるかもしれませんね!
 
-## ギークハウス沖縄 @kimihito_
 
-* 発表者
-    * [@kimihito_](https://twitter.com/kimihito_)
-* 資料
-    * [ギークハウス沖縄](https://speakerdeck.com/kimihito_/gikuhausuchong-nawa-in-chong-nawa-rubyhui-yi-01)
-
-![geeoki](okinawarubykaigi01/geeoki.jpg)
-
-エンジニアやインターネット好きが集うシェアハウスである[ギークハウス](http://geekhouse.tumblr.com/)の中でも日本最南端である、[ギークハウス沖縄](http://text.geeoki.com/)の活動のお話していただきました。Okinawa.rbの毎週のMeetupの会場になっていたり、Rubyでロボットの操作ができるフレームワークである[Artoo](http://artoo.io/)を使ってRubyでARDroneを飛ばしたりなど、部室のような空気が残るギークハウス沖縄の紹介でした。
+### ギークハウス沖縄 @kimihito_
+[@kimihito_](https://twitter.com/kimihito_)さんによるギークハウス沖縄の紹介では、全国におよそ17ヶ所ある[ギークハウス](http://geekhouse.tumblr.com/)の説明と、[ギークハウス沖縄](http://text.geeoki.com/)の活動のお話していただきました。Okinawa.rbの毎週のMeetupの会場になっていたり、Rubyでロボットの操作ができるフレームワークである[Artoo](http://artoo.io/)を使ってRubyでARDroneを飛ばしたりなど、部室のような空気が残るギークハウス沖縄の紹介でした。
 
 
-## 「rcairoでものづくり」@mgwsuzuki
+## Lightning Talks 2
+
+### 「rcairoでものづくり」@mgwsuzuki
 
 * 発表者
     * [@mgwsuzuki](https://twitter.com/mgwsuzuki)
@@ -123,7 +133,32 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 2Dグラフィックス用のCライブラリである[cairo](http://cairographics.org/)をRubyでバインディングした[rcairo](https://github.com/rcairo/rcairo)を使って、自動設計するプログラムをRubyで作成、1時間20分ほどで完成することができたそうです。今後はGithubに自動設計のプログラム公開し、パラメータをPull Requestすることで簡単にハコを作れるようにしたいということをおっしゃっていました。
 
 
-## 「きたのくにからこんにちぬー！」
+### 「Rubyに何かをしゃべらせる」Yoichi Kobayashi
+
+* 発表者
+    * [Yoichi Kobayashi](http://www.linkedin.com/pub/yoichi-kobayashi/89/205/461)
+* 資料
+    * なし
+
+![talk-ruby](okinawarubykaigi01/talk_ruby.jpg)
+
+[Twilio](http://www.twilio.com/)とRubyを使って、ただひたすらオヤジギャクを喋らせる番号を取得したが、喋るオヤジギャクが本当に面白いものなのかというのをどう判定するかのアルゴリズムをRubyで考えたいというようなお話でした。オヤジギャクを扱いながらも、何をもって面白いのかを真面目に考察する発表に会場からは笑いが起こっていました。
+
+
+### 「組み込みにもiOSにもrubyで幸せ（仮）」@shumach217
+
+* 発表者
+    * [@shumach217](https://twitter.com/shumach217)
+* 資料
+    * [組み込みにもiOSにもrubyで幸せ（仮）](http://www.slideshare.net/shumach217/ruby01-31912722)
+
+![happy-ruby](okinawarubykaigi01/happy_ruby.jpg)
+
+組み込みで行われる実機テストを、手作業からRSpecとturnipを使った自動化に変更したお話から、iOSの開発においても同様なアプローチができるのではないかと考え、turnipを記述でiOSのデバイスをリモート操作できるようなテストフレームワークを作成中であるとおっしゃっていました
+
+## Lightning Talks 2.5 + Sponsored Session
+
+### 「きたのくにからこんにちぬー！」
 
 * 発表者
     * [@PUPRL](https://twitter.com/PUPRL)
@@ -133,3 +168,15 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 ![nuruby](okinawarubykaigi01/nuruby.jpg)
 
 北海道からお越しの[@PUPRL](https://twitter.com/PUPRL)さんは、「和室でぬるくRubyをもくもくする」[ぬRuby](http://nuruby.org/)という活動の紹介の地域Rubyに参加することの良さについて語ってくださいました。はじめてのLTであったにも関わらず、ぬRubyの魅力がしっかり伝わったようで、LT後にはぬRubyに参加したいとの言葉をたくさん見受けることができました。
+
+
+### 「The Payment System by Ruby」ウェブペイ株式会社
+
+* 発表者
+    * [@sowawa](https://twitter.com/sowawa)
+* 資料
+    * なし
+
+![webpay](okinawarubykaigi01/webpay.jpg)
+
+開発者向けのクレジット決済サービスの[WebPay](https://webpay.jp/)を開発しているウェブペイ株式会社のスポンサーセッションでは、Rubyでセキュアなプログラミングを行う際の注意点をお話してくださりました。シンボルはGCされない問題があり、ユーザ入力をto_symすると問題が起きてしまうという例を取り上げ、シンボルの扱いに関してのお話がありました。5分という短いセッションながらも内容の濃いお話でした。
