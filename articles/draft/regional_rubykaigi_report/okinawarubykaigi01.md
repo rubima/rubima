@@ -200,4 +200,15 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 
 旅のプランをネット上で共有出来るWebアプリケーション[SharePla](http://sharepla.herokuapp.com)を紹介しました。
 人材育成イベントの一環でアジャイル開発のスクラムを実践したらしく、実際にどのようにWebアプリケーションを開発していったかを話していました。
-Web上にも公開していてユーザーのフィードバックを受けて開発を続けていきたいという風に話していました。  
+Web上にも公開していてユーザーのフィードバックを受けて開発を続けていきたいという風に話していました。
+
+### 「琉大図書館にRuby本を！」
+
+* 発表者
+    * [@_simanman](https://twitter.com/_simanman)
+* 資料
+    * [琉大図書館にRuby本を！](http://www.slideshare.net/_siman/ruby-31905851?qid=8ca58c70-4301-47df-b498-d2daa3e917c4&v=qf1&b=&from_search=1)
+
+![simanman](okinawarubykaigi01/simanman.jpg)
+
+琉球大学図書館の選書システムを、自動で入力する自作スクリプトについて紹介しました。プレゼンが可愛い棒人間で書かれていて目で見て面白いLTでした。  
