@@ -78,6 +78,8 @@ comint.elとinf-ruby.elを使いEmacsバッファ内でRubyのコードを実行
 * 発表者
     * 山崎さん[株式会社レキサス](http://lexues.co.jp)
 
+![yamazaki](okinawarubykaigi01/yamazaki.jpg)
+
 沖縄県内の学生を育成するプロジェクト[RyukyuFrogs](http://www.ryukyu-frogs.com)と[Lexues Academy](http://academy.lexues.co.jp)の紹介でした。
 
 ## 沖縄県内のコミュニティ活動の紹介
@@ -184,3 +186,18 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 ![webpay](okinawarubykaigi01/webpay.jpg)
 
 開発者向けのクレジット決済サービスの[WebPay](https://webpay.jp/)を開発しているウェブペイ株式会社のスポンサーセッションでは、Rubyでセキュアなプログラミングを行う際の注意点をお話してくださりました。シンボルはGCされない問題があり、ユーザ入力をto_symすると問題が起きてしまうという例を取り上げ、シンボルの扱いに関してのお話がありました。5分という短いセッションながらも内容の濃いお話でした。
+
+
+## Lightning Talks 学生枠
+
+### 「This is a SharePla」
+
+* 発表者
+    * [@kanpe777](https://twitter.com/kanpe777) [@salvare234](https://twitter.com/salvare234)
+    * [RyuPiT](https://github.com/RyuPiT)
+
+![kanpe777_salvare234](okinawarubykaigi01/kanpe777_salvare234.jpg)
+
+旅のプランをネット上で共有出来るWebアプリケーション[SharePla](http://sharepla.herokuapp.com)を紹介しました。
+人材育成イベントの一環でアジャイル開発のスクラムを実践したらしく、実際にどのようにWebアプリケーションを開発していったかを話していました。
+Web上にも公開していてユーザーのフィードバックを受けて開発を続けていきたいという風に話していました。  
