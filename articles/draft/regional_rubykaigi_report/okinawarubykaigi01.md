@@ -225,3 +225,24 @@ Web上にも公開していて実用したユーザのフィードバックを�
 [enkw_](https://twitter.com/enkw_)さんはMac Bookの背面をシェアするユニークなサービス[Mac Frends](http://macfriends.net)を紹介しました。
 [RubyFriends](http://rubyfriends.com)から着想を得て作成したらしいです。会場ではさっそく利用している方の姿もありました。  
 
+### 「Square your Instagram」@nanophate
+
+* 発表者
+    * [@nanophate](https://twitter.com/nanophate)
+
+![nanophate](okinawarubykaigi01/nanophate.jpg)
+
+[instag](http://instag.herokuapp.com)は美術館のように洗練されたデザインで写真を閲覧することのできるサービスです。
+開発をおこなった[nanophate](https://twitter.com/nanophate)さんは従来の写真公開サービスを見て「いいね」や「スター」などに邪魔されず、もっとユーザーが写真に没頭できるようなデザインのがほしいと思ったそうです。
+画像は[instagram](http://instagram.com)の[API](http://instagram.com/developer/)を使って取得していてサービス名もそこから来ているらしいです。
+
+### 「Rubyがモデリングをする時代」
+
+* 発表者
+    * [@motikan2010](https://twitter.com/motikan2010)
+
+![motikan2010](okinawarubykaigi01/motikan2010.jpg)
+
+手軽に世界に一つだけのものを作れるサービス[Once-Tech](http://once-tech.net)について[motikan2010](https://twitter.com/motikan2010)さんが紹介しました。
+既存の3Dモデルとユーザーがアップロードした画像を組み合わせることで自分だけの3Dモデルが作れるそうです。
+発表で実際にサービスを利用してオリジナルの3Dモデルを作成するデモを行っていましたが数十秒ほどで3Dモデルが完成し、本当に手軽に利用することが可能でした。  
