@@ -56,7 +56,31 @@
 
 ![bash0C7](okinawarubykaigi01/bash07.jpg)
 
-ログ収集ツールとして注目される[fluentd](http://fluentd.org)を使いストリームにバッチ業務を処理する手法を紹介して頂きました。通常はログ収集のみにつかわれることが多いfluentdですが、入出力のプラグインを自作することで解析されたwebストリームを受けて進捗確認のツールとして使用することが出来るそうです。プラグインは[RubyGem](https://www.ruby-lang.org/ja/libraries/)の形式で導入することが出来るため、手軽に機能を追加する出来るということをおっしゃていました。
+ログ収集ツールとして注目される[fluentd](http://fluentd.org)を使いストリームにバッチ業務を処理する手法を紹介して頂きました。
+通常はログ収集のみにつかわれることが多いfluentdですが、入出力のプラグインを自作することで解析されたwebストリームを受けて進捗確認のツールとして使用することが出来るそうです。
+プラグインは[RubyGem](https://www.ruby-lang.org/ja/libraries/)の形式で導入することが出来るため、手軽に機能を追加する出来るということをおっしゃていました。  
+
+### 「Emacsの普通の使い方」@libkinjo
+
+* 発表者
+    * [@libkinjo](https://twitter.com/libkinjo)
+* 資料
+    * [Emacsの普通の使い方](http://kinjo.github.io/okrk01/#/title)
+
+![libkinjo](okinawarubykaigi01/libkinjo.jpg)
+
+Rubyではirbやpryを使って対話式にプログラムを記述することが出来ますが、libkinjoさんはEmacsのscratchバッファでeLispと対話するようにRubyとも対話したいと考えました。
+comint.elとinf-ruby.elを使いEmacsバッファ内でRubyのコードを実行し結果を受け取るデモを実際に動かして頂きました。
+また「scratchバッファはEmacsと対話する聖域（サンクチュアリ）」や「Emacsはロマンの積み木」などカッコいい名言で会場を盛り上げて頂きました。  
+
+###「RyukyuFrogsとLexues Academyの話」株式会社レキサス
+
+* 発表者
+    * 山崎さん[株式会社レキサス](http://lexues.co.jp)
+
+![yamazaki](okinawarubykaigi01/yamazaki.jpg)
+
+沖縄県内の学生を育成するプロジェクト[RyukyuFrogs](http://www.ryukyu-frogs.com)と[Lexues Academy](http://academy.lexues.co.jp)の紹介でした。
 
 ## 沖縄県内のコミュニティ活動の紹介
 
@@ -162,3 +186,88 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 ![webpay](okinawarubykaigi01/webpay.jpg)
 
 開発者向けのクレジット決済サービスの[WebPay](https://webpay.jp/)を開発しているウェブペイ株式会社のスポンサーセッションでは、Rubyでセキュアなプログラミングを行う際の注意点をお話してくださりました。シンボルはGCされない問題があり、ユーザ入力をto_symすると問題が起きてしまうという例を取り上げ、シンボルの扱いに関してのお話がありました。5分という短いセッションながらも内容の濃いお話でした。
+
+
+## Lightning Talks 学生枠
+
+### 「This is a SharePla」
+
+* 発表者
+    * [@kanpe777](https://twitter.com/kanpe777) [@salvare234](https://twitter.com/salvare234)
+    * [RyuPiT](https://github.com/RyuPiT)
+
+![kanpe777_salvare234](okinawarubykaigi01/kanpe777_salvare234.jpg)
+
+旅のプランをネット上で共有出来るWebアプリケーション[SharePla](http://sharepla.herokuapp.com)を紹介しました。
+人材育成イベントの一環でアジャイル開発のスクラムを実践したらしく、実際にどのようにWebアプリケーションを開発していったかを話していました。
+Web上にも公開していて実用したユーザのフィードバックを受けて開発を続けていきたいと話していました。  
+
+### 「琉大図書館にRuby本を！」
+
+* 発表者
+    * [@_simanman](https://twitter.com/_simanman)
+* 資料
+    * [琉大図書館にRuby本を！](http://www.slideshare.net/_siman/ruby-31905851?qid=8ca58c70-4301-47df-b498-d2daa3e917c4&v=qf1&b=&from_search=1)
+
+![simanman](okinawarubykaigi01/simanman.jpg)
+
+琉球大学図書館の選書システムを自動で入力する自作スクリプトについて紹介しました。プレゼンが可愛い棒人間で書かれていて目で見て面白いLTでした。  
+
+### 「#MacFriends: Macの背面にステッカーを貼るヤツちょっとこい」
+
+* 発表者
+    * [@enkw_](https://twitter.com/enkw_)
+* 資料
+    * [#MacFriends: Macの背面にステッカーを貼るヤツちょっとこい](https://speakerdeck.com/enkw/number-macfriends-in-okinawa-ruby-kaigi)
+
+![enkw](okinawarubykaigi01/enkw.jpg)
+
+[enkw_](https://twitter.com/enkw_)さんはMac Bookの背面をシェアするユニークなサービス[Mac Frends](http://macfriends.net)を紹介しました。
+[RubyFriends](http://rubyfriends.com)から着想を得て作成したらしいです。会場ではさっそく利用している方の姿もありました。  
+
+### 「Square your Instagram」@nanophate
+
+* 発表者
+    * [@nanophate](https://twitter.com/nanophate)
+
+![nanophate](okinawarubykaigi01/nanophate.jpg)
+
+[instag](http://instag.herokuapp.com)は美術館のように洗練されたデザインで写真を閲覧することのできるサービスです。
+開発をおこなった[nanophate](https://twitter.com/nanophate)さんは従来の写真公開サービスを見て「いいね」や「スター」などに邪魔されず、もっとユーザーが写真に没頭できるようなデザインのがほしいと思ったそうです。
+画像は[instagram](http://instagram.com)の[API](http://instagram.com/developer/)を使って取得していてサービス名もそこから来ているらしいです。
+
+### 「Rubyがモデリングをする時代」
+
+* 発表者
+    * [@motikan2010](https://twitter.com/motikan2010)
+
+![motikan2010](okinawarubykaigi01/motikan2010.jpg)
+
+手軽に世界に一つだけのものを作れるサービス[Once-Tech](http://once-tech.net)について[motikan2010](https://twitter.com/motikan2010)さんが紹介しました。
+既存の3Dモデルとユーザーがアップロードした画像を組み合わせることで自分だけの3Dモデルが作れるそうです。
+発表で実際にサービスを利用してオリジナルの3Dモデルを作成するデモを行っていましたが数十秒ほどで3Dモデルが完成し、本当に手軽に利用することが可能でした。  
+
+## ゲスト講演③
+
+### 「mrubyを使うポイント」
+
+* 発表者
+    * [田中 和明 准教授](http://www.kyutech.ac.jp/professors/iizuka/i4/i4-2/entry-714.html)
+
+![mruby](okinawarubykaigi01/mruby.jpg)
+
+2012年4月にgithubにコードが公開されて以来オープンソースでの開発がすすむ軽量rubyこと[mruby](https://github.com/mruby/mruby)。
+そのmrubyを使うポイントについて九州工業大学で教鞭をとる田中和明准教授さんが講談しました。  
+
+田中さんは大学卒業後、工業系の大学へ就職した田中さんはロボット制御など組み込み開発を行っていたそうです。
+組み込み開発では主にCが常用されていますが、Rubyの方がコードを書きやすいのはCでプログラムを書いたことがある方ならすぐに分かりますね。
+mrubyは当初から組み込みシステムに組み込みことを目的にスタートしたRubyです。  
+Rubyの実行速度は遅いと言われていますが速ければいいわけではなく、一定時間内に処理が完了することを保証するリアルタイム性を満たすことができれば組み込みシステム開発で軽量化したRubyを使ってコードを書くことができます。
+Rubyの強みであるGCを使ってメモリ管理をすることが可能で、GCの処理を一定時間以内に作業を完了することを保証するインクリメンタルGCを採用することでリアルタイム性を保証しているらしいです。
+
+大きな強みとしてあげられるのがmrubyはVMプログラム上で動作するということでした。
+mrubyのコードはRIteBinaryと呼ばれるバイトコードに変換され、書くハードウェアで動作するVMプログラムへ渡すことでプログラムを実行されます。
+そのため、一度VMプログラムを作ってしまえば、PC上で動作するmrubyプログラムもマイコン上で動作するmrubyプログラムも全く同じコードで動かすことが出来ます。
+
+また田中さんが大学で行っている研究としてmrubyに特化したハードウェアの開発の紹介がありました。
+研究の例としてmrubyのメソッド呼び出し時に頻繁に使われるハッシュ関数をLSIチップ上で実装し、文字列操作を行うプログラムの性能を20%上昇させることに成功したらしいです。
