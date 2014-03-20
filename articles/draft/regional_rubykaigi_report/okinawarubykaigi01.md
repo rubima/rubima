@@ -90,6 +90,9 @@ comint.elとinf-ruby.elを使いEmacsバッファ内でRubyのコードを実行
 ものづくりのコミュニティから、エンジニアの集うシェアハウスまでの計5つのコミュニティの発表を行いました。
 
 ### Ryukyu Rubyist Rookies
+
+![rubyistrookies](okinawarubykaigi01/rubyistrookies.jpg)
+
 [@repserc](https://twitter.com/repserc)さんによる[Ryukyu Rubyist Rookies](https://www.facebook.com/groups/ruby.okinawa/)の紹介でした。(発表資料: [Ryukyu Rubyist Rookies 紹介 @ 沖縄Ruby会議01](http://www.slideshare.net/repserc/ryukyu-rubyist-rookies))
 
 「最終的な目標として"Good bye blue monday"、月曜日をRubyで楽しく過ごして行きましょう!」とおっしゃっていたのが印象的でした。
@@ -98,6 +101,9 @@ Rubyの初心者、プログラミング初心者が多いのが特徴で、「�
 後日、[沖縄Ruby会議で発表できなかったこと](http://repserc.hatenablog.com/entry/2014/03/04/164535)を教えていただきました。
 
 ### Ryudai.rb
+
+![rubyistrookies](okinawarubykaigi01/rubyistrookies.jpg)
+
 [@_simanman](https://twitter.com/_simanman)さんによる[ryudai.rb](http://lingr.com/room/ryudairb)の紹介でした。
 
 沖縄Ruby会議01の日がちょうど設立1周年。コミュニティの維持についての悩みを話していました。
