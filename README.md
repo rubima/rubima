@@ -8,8 +8,8 @@ If you need any support, please create an issue to the Rubyist Magazine support 
 
 次号スケジュールは Issue に書くようになりました。
 
+* 47 号 : https://github.com/rubima/rubima/issues/279
 * 46 号 : https://github.com/rubima/rubima/issues/252
-* 45 号 : https://github.com/rubima/rubima/issues/227
 
 
 ## 今後の発行予定
