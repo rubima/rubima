@@ -8,6 +8,7 @@ If you need any support, please create an issue to the Rubyist Magazine support 
 
 次号スケジュールは Issue に書くようになりました。
 
+* 49 号 : https://github.com/rubima/rubima/issues/304
 * 47 号 : https://github.com/rubima/rubima/issues/279
 * 46 号 : https://github.com/rubima/rubima/issues/252
 
@@ -20,3 +21,4 @@ If you need any support, please create an issue to the Rubyist Magazine support 
 * 2014/03 - 46 号
 * 2014/06 - 47 号
 * 2014/09 - 48 号 10 周年!!
+* 2014/12 - 49 号
