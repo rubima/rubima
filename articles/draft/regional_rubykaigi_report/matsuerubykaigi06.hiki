@@ -10,14 +10,14 @@
 * 後援：日本Rubyの会
 * 動画による中継（USTREAM）：http://www.ustream.tv/channel/matsuerubykaigi06
 * Togetterまとめ：http://togetter.com/li/760234
-* 公式タグ・Twitter：#matrk06
+* 公式タグ・Twitter：[[#matrk06|https://twitter.com/hashtag/matrk06]]
 
 [[発表の様子|matsuerubykaigi06/07_closing.jpg]]
 
 !! オープンソースの力(基調講演)
 
 * 発表者
-** まつもとゆきひろ(@yukihiro_matz)氏
+** まつもとゆきひろ氏([[@yukihiro_matz|https://twitter.com/yukihiro_matz]])
 
 [[発表の様子|matsuerubykaigi06/01_keynote.jpg]]
 
@@ -34,7 +34,7 @@
 !! フルタイムのRubyコミッターとして働くこと(ショートセッション)
 
 * 発表者
-** 笹田耕一(@_ko1)氏
+** 笹田耕一氏([[@_ko1|https://twitter.com/_ko1]])
 
 [[発表の様子|matsuerubykaigi06/02_short.jpg]]
 
@@ -72,7 +72,7 @@ session2については、残念ながら必要なファイルがインターネ
 !! 「納品のない受託開発」と、エンジニアの働きかたのこれから(ゲスト講演)
 
 * 発表者
-** 倉貫義人(@kuranuki)氏
+** 倉貫義人氏([[@kuranuki|https://twitter.com/kuranuki]])
 * 資料
 ** http://www.slideshare.net/kuranuki/ss-42979624
 
@@ -96,14 +96,14 @@ session2については、残念ながら必要なファイルがインターネ
 そうした場合、いつ・どこで働くかは問題ではなく、地方に住んでいることはハンディキャップにはならないとおっしゃっていました。
 
 むしろ問題となるのは、多重請負の枠組みの中で仕事を請けようとすることであり、その問題を解決するために、納品のない受託開発のオープン化に取り組んでおられるそうです。
-最後に、その取り組みとして[[ギルド|http://www.sonicgarden.jp/guild]とアカデミーについてご紹介いただきました。
+最後に、その取り組みとして[[ギルド|http://www.sonicgarden.jp/guild]]とアカデミーについてご紹介いただきました。
 
 [[発表の様子|matsuerubykaigi06/04_guest.jpg]]
 
 !! Matsue.rbのふりかえり - 2014 -
 
 * 発表者
-** 吉岡隆行 氏(@murateku)
+** 吉岡隆行氏([[@murateku|https://twitter.com/murateku]])
 
 2014年のMatsue.rbの活動について講演いただきました。主に以下の内容について講演いただきました。
 
@@ -122,7 +122,7 @@ session2については、残念ながら必要なファイルがインターネ
 !! スモウルビーでライブコーディング
 
 * 発表者
-** 本多展幸(@nobyuki)氏
+** 本多展幸氏([[@nobyuki|https://twitter.com/nobyuki]])
 * 資料
 ** https://github.com/nobyuki/matrk06
 
@@ -156,9 +156,9 @@ session2については、残念ながら必要なファイルがインターネ
 !! 来て、見て、感じた、日本、松江、Ruby、NaCl(パネルディスカッション)
 
 * 発表者
-** レナト正 氏
-** 多根チアゴ 氏、
-** 高尾コウジ 氏（司会・進行）
+** レナト正氏
+** 多根チアゴ氏、
+** 高尾コウジ氏（司会・進行）
 
 残念ながら、本編では進行の関係で中止になった本セッションですが、懇親会にて盛り上がっている中での発表となりました。2014年の後半にブラジルから来てくれた長期インターンの二人に対して、司会の高尾コウジ氏からの質問形式で以下に関する感想を聞く事ができました。
 
@@ -177,26 +177,26 @@ session2については、残念ながら必要なファイルがインターネ
 
 * 永田町に届けられるサービスTmix(本編)
 ** 発表者
-*** 五十嵐邦明(@igaiga555)氏
+*** 五十嵐邦明氏([[@igaiga555|https://twitter.com/igaiga555]])
 ** 資料
 *** https://speakerdeck.com/igaiga/matrk06-tmix
 * 松江のいいところ(懇親会)
 ** 発表者
-*** 五十嵐邦明(@igaiga555)氏
+*** 五十嵐邦明氏([[@igaiga555|https://twitter.com/igaiga555]])
 ** 資料
 *** https://speakerdeck.com/igaiga/matrk06-lt
 * Ruby 2.2の紹介(TODO)
 ** 発表者
-*** 笹田耕一(@_ko1)氏
+*** 笹田耕一氏([[@_ko1|https://twitter.com/_ko1]])
 * 僕らが東京で学んだこと
 ** 発表者
-*** 杉原建司(@tobaken)氏
+*** 杉原建司氏([[@tobaken|https://twitter.com/tobaken]])
 * 「感情認識ロボットPepper、ようこそ島根県へ♪」
 ** 発表者
-*** 槇原綾子氏(@makiaya55)氏
+*** 槇原綾子氏([[@makiaya55|https://twitter.com/makiaya55]])
 * 「新たなプログラミングスタイルの確立を目指して」
 ** 発表者
-*** 後藤雅樹氏
+*** 後藤雅樹氏([[@goto_jpn|https://twitter.com/goto_jpn]])
 ** 資料
 *** http://www.slideshare.net/gototgz/ruby-20141220
 
