@@ -129,7 +129,7 @@ end
 
 `create` メソッド内では `Monban::ControllerHelpers` が提供する `sign_up` と `sign_in` メソッドに認証関係の処理を任せています。
 これにより `create` メソッドでは HTTP リクエストを受け取ってレスポンスを返すことに集中しています。
-なにより `app/controllers/users_controller.rb` は単に generator によって生成されたコードに過ぎないので、自由に書き換えることができます。
+コントローラとビジネスロジックが切り離されているのでメンテナンスしやすくなっています。
 
 ### 拡張の方法
 
