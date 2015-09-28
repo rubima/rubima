@@ -1,0 +1,176 @@
+! RegionalRubyKaigi レポート 松江 Ruby 会議 07
+
+!! はじめに
+
+2015年9月26日（土）に松江Ruby会議07が開催されました。今年のテーマはTODOでした。66名の方々に参加いただきました。また、Youtubeの合計視聴数は161名（2015年9月28日現在）でした。
+
+* 日時：2015年9月26日（土）11:00〜17:10（懇親会: 18:00〜）
+* 場所：松江オープンソースラボ
+* 主催：Matsue.rb（まつえるびー）
+* 後援：日本Rubyの会
+* 動画による中継(Youtube)：http://www.ustream.tv/channel/matsuerubykaigi06
+* Togetterまとめ：http://togetter.com/li/760234
+* 公式タグ・Twitter：[[#matrk07|https://twitter.com/hashtag/matrk07]]
+
+!! Redmineの歴史とアーキテクチャ (ゲスト講演)
+
+* 発表者
+** Toshi MARUYAMA 氏([[@marutosijp|https://twitter.com/marutosijp]])
+
+[[発表の様子|matsuerubykaigi07/02_guest.jpg]]
+
+TODO: @nishidayuyaさん
+
+!! 昼休憩 (LT)
+
+お昼ごはんを食べながら、山口友洋氏(TODO)の司会で以下の5件のLTの発表が行われました。
+
+* WWDCに行ってきた話
+** 発表者
+*** 木村友哉氏([[@tomo-k|https://github.com/tomo-k]])
+** 資料
+*** TODO
+* 島根大学ものづくり部Pimの紹介
+** 発表者
+*** 佐藤公治氏(TODO)
+** 資料
+*** TODO
+* MidiosX を作りました
+** 発表者
+*** 進藤元明氏([[@motoakira|https://twitter.com/motoakira]])
+** 資料
+*** http://www.slideshare.net/motoakira/midiosx
+* 明日のために今日できること（仮
+** 発表者
+*** きむらしのぶ氏([[@mix_dvd|https://twitter.com/mix_dvd]])
+* 都会と田舎のライフスタイルGAP
+** 発表者
+*** 小嵜英治氏([[@eijik|https://github.com/eijik]])
+
+[[発表の様子|matsuerubykaigi07/03_lt01.jpg]]
+[[発表の様子|matsuerubykaigi07/03_lt02.jpg]]
+[[発表の様子|matsuerubykaigi07/03_lt03.jpg]]
+[[発表の様子|matsuerubykaigi07/03_lt04.jpg]]
+[[発表の様子|matsuerubykaigi07/03_lt05.jpg]]
+
+!! Rubyにみるプログラミングの進化 (基調講演)
+
+* 発表者
+** まつもとゆきひろ氏([[@yukihiro_matz|https://twitter.com/yukihiro_matz]])
+
+[[発表の様子|matsuerubykaigi07/04_keynote.jpg]]
+
+TODO: @nobyukiさん
+
+!! matsuerb.products(2014..2015)
+
+* 発表者
+** 橋本 将氏([[@sho_hashimoto|https://twitter.com/sho_hashimoto]])
+
+[[発表の様子|matsuerubykaigi07/05_matsuerb.jpg]]
+
+TODO
+
+!! スプラウト.rb 〜2年目に突入!!!〜
+
+* 発表者
+** 松岡 香里 氏([[@kaorim8|https://twitter.com/kaorim8]])
+* コーチ
+** 佐田 明弘氏([[@sada4|https://twitter.com/sada4]])
+** 倉橋 徹 氏([[@ToruKurahashi|https://github.com/ToruKurahashi]])
+** 本多 展幸 氏([[@nobyuki|https://twitter.com/nobyuki]])
+
+[[発表の様子|matsuerubykaigi07/06_sproutrb.jpg]]
+
+松岡氏の発表でSprout.rbの活動についてご紹介いただきました。
+前回の発表では参加者目線での紹介でしたが今回はコーチ目線でのお話をいただきました。
+Sprout.rbは早くも１周年を迎えたそうで松岡氏は "コミュニティって続いていくの当たり前ではなくて本当に参加して頂いてるみなさんと支援している人のおかげだと思っている" と挨拶をしておられました。
+前年度から参加しておられる佐田氏に加え今年度から倉橋氏、本多氏も加わり少しずつ成長していっているようです。
+松岡氏のコミュニティのご紹介の後コーチ陣からも一言ずつコメントをいただいています。
+
+* 佐田氏
+
+これまでは子供に対して教える機会があったもののSprout.rbはどちらかというと年齢層が上だったので少し不安はあったそうです。
+ただそこは大人！間違えても受入れてもらいありがたかったそうです。
+
+* 倉橋氏
+
+懇親会前の１回のみの参加ということでみなさんからネタにされ笑いが絶えない発表でした。
+冗談を言う反面Railsを広めたいという熱い気持ちを語られておられRails愛を感じました。
+
+* 本多氏
+
+松江で行われたRailsGirlsの第１回からの継続学習ということでSprout.rbでは女性の比率が多いそうです。
+仕事やプライベートで女性に教えることもあり女性率の多いSprout.rbを紹介すれば間違いがないそうです。
+
+最後に松岡さんからSprout.rbの位置付けについておっしゃったことで既存コミュニティの最初のハードルが高いと思う人の第一歩として活動できたらよいとのことでした。
+今回の発表を見てとても暖かい雰囲気のコミュニティなのがすごい伝わる発表でした。
+
+!! プログラミングコンテスト 結果紹介
+
+* 発表者
+** 吉岡隆行氏([[@murateku|https://twitter.com/murateku]])、内部 高志氏([[@Takashi-U|https://github.com/Takashi-U]])、倉橋 徹氏([[@ToruKurahashi|https://github.com/ToruKurahashi]])、本多 展幸氏([[@nobyuki|https://twitter.com/nobyuki]])、橋本 将氏([[@sho_hashimoto|https://twitter.com/sho_hashimoto]])と受賞者の皆さん
+
+[[発表の様子|matsuerubykaigi07/07_contest.jpg]]
+
+松江Ruby会議07ではpaizaさんとの協賛で[[オンラインでのプログラミングコンテスト|https://paiza.jp/poh/joshibato/matsue-ruby]]が行われました。
+
+# 問題の解説と模範解答の説明
+# 松江Ruby会議07の参加者のみを対象にした1位から3位の発表
+# 松江Ruby会議07の参加者のみを対象にした特別賞の発表
+# 全体での9/26時点での1位から3位の発表と解説(※paizaさんのコンテスト自体は10/6まで行われました)
+
+元々スタッフも参加できるルールではあったためか、2.では受賞者が全員スタッフになってしまうというハプニングがありました。(TODO: 追記)
+
+また、1位となった本多展幸氏([[@nobyuki|https://twitter.com/nobyuki]])にランキング全体の1位、3位の方の回答を解説していただきました。(TODO: 詳細)
+
+!! 学校で使用しているシステムについての話 〜わんわんクラブお仕事おたすけシステム〜
+
+* 発表者
+** 藤井貴氏
+
+[[発表の様子|matsuerubykaigi07/08_bijisen.jpg]]
+
+TODO: @sadaさん
+
+!! スモウルビー
+
+* 発表者
+** 高尾宏治 氏([[@takaokouji|https://twitter.com/takaokouji]])
+** 本多展幸 氏([[@nobyuki|https://twitter.com/nobyuki]])
+
+[[発表の様子|matsuerubykaigi07/09_progshou.jpg]]
+
+TODO: @sho-h
+
+!! Ruby Quiz
+
+[[発表の様子|matsuerubykaigi07/10_rubyquiz.jpg]]
+
+TODO: @tomo-kさん
+
+! 著者について
+
+!! 西田 雄也 ([[@nishidayuya|https://twitter.com/nishidayuya]])
+
+もうすぐ「プログラマー35歳定年説」の該当プログラマ(TODO: @nishidayuyaさん rank change?)。
+
+!! 佐田 明弘 ([[@sada4|https://twitter.com/sada4]])
+
+Matsue.rbにひっそりといるプログラマ。
+
+!! 井上 裕之 ([[@ino_h|https://twitter.com/ino_h]])
+
+Rubyといろんなものをまぜるが好き。
+
+!! 本多 展幸 ([[@nobyuki|https://twitter.com/nobyuki]])
+
+プログラミング教育おじさん
+
+!! 木村 友哉([[@tomo-k|https://github.com/tomo-k]])
+
+TODO: @tomo-kさん
+
+!! 橋本 将 ([[@sho_hashimoto|https://twitter.com/sho_hashimoto]])
+
+Matsue.rb の雑用係。[[定例会|http://matsue.rubyist.net/about_us/#matsuerb]]にはだいたい出席してます
