@@ -134,7 +134,7 @@ gets;w=$<.read.split.sort;c=l="";w.each{|d|d==(r=d.reverse)?c+=d : d<r&&w.bsearc
 l="";gets;b=$<.map{|a|a.chop}.sort;loop{w=b.shift||break;l.insert l.size/2,b.include?(r=w.reverse)?w+b.delete_at(b.index r):w==r ?w:""};$><<l
 >>>
 
-西田氏(3位:142バイト) # TODO: @nishidayuyaさんのバイト数がpaizaさんの結果サイトだと183バイトに見えるのを確認する
+西田氏(3位:142バイト)
 
 <<<
 gets;a=gets("").split.sort;b=[];c="";while w=a.shift;d=w.reverse;(i=a.index d)?(a.delete_at i;c<<w):w==d&&b<<w;end;puts c+b.min.to_s+c.reverse
@@ -197,7 +197,7 @@ TODO: @tomo-kさん
 
 !! 西田 雄也 ([[@nishidayuya|https://twitter.com/nishidayuya]])
 
-もうすぐ「プログラマー35歳定年説」の該当プログラマ(TODO: @nishidayuyaさん rank change?)。
+もうすぐ「プログラマー35歳定年説」の該当プログラマ。
 
 !! 佐田 明弘 ([[@sada4|https://twitter.com/sada4]])
 
