@@ -195,7 +195,7 @@ Matsue.rb スタッフ考案の Ruby に関する択一問題が出題されま�
 
 Q. 以下のコードを実行し、aとbを数値にして比較したとき、大きいのはa,bどちらでしょうか？
 
-a = (1..9).reduce(‘') do |sum, value|
+a = (1..9).reduce('') do |sum, value|
     sum.to_s + value.to_s
 end
 
