@@ -92,8 +92,6 @@ RedmineがRails 5に対応するための課題として、strong parameterへ�
 * WWDCに行ってきた話
 ** 発表者
 *** 木村友哉氏([[@tomo-k|https://github.com/tomo-k]])
-** 資料
-*** TODO
 * 島根大学ものづくり部Pimの紹介
 ** 発表者
 *** 佐藤公治氏(TODO)
@@ -255,7 +253,23 @@ Rubyプログラミング少年団理事長、副理事長のお二人による�
 
 [[発表の様子|matsuerubykaigi07/10_rubyquiz.jpg]]
 
-TODO: @tomo-kさん
+観客・スタッフ全員参加型の Ruby Quiz を開催しました。
+Matsue.rb スタッフ考案の Ruby に関する択一問題が出題されました。
+すべての問題が Ruby のコードに関する問題で、脳内コンパイラの性能と、いかに日頃から意識して Ruby を使っているかが問われました。
+
+Q. 以下のコードを実行し、aとbを数値にして比較したとき、大きいのはa,bどちらでしょうか？
+
+a = (1..9).reduce('') do |sum, value|
+    sum.to_s + value.to_s
+end
+
+b = (1..9).reduce(0) do |sum, value|
+    sum + value
+end
+
+制限時間1分という中で上記のような問題も出題され、日頃仕事や趣味で Ruby を使っているエンジニアでも苦戦していた様子でした。
+最終的に勝ち残った方には、スポンサーの皆様より豪華景品が送られました。
+2択とはいえすぐに答えを出すことが難しい問題が多く、プログラミング言語としての奥深さを改めて実感する良いきっかけになったのではないでしょうか。
 
 ! 著者について
 
@@ -279,7 +293,7 @@ Rubyといろんなものをまぜるが好き。
 
 !! 木村 友哉([[@tomo-k|https://github.com/tomo-k]])
 
-TODO: @tomo-kさん
+Apple 信者な Rubyist
 
 !! 橋本 将 ([[@sho_hashimoto|https://twitter.com/sho_hashimoto]])
 
