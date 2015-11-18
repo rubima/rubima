@@ -170,10 +170,24 @@ Happy Hacking!
 
 * 発表者
 ** 橋本 将氏([[@sho_hashimoto|https://twitter.com/sho_hashimoto]])
+* 資料
+** https://prezi.com/0y1e6-b9-f2k/matsuerbproduct20142015/
 
 [[発表の様子|matsuerubykaigi07/05_matsuerb.jpg]]
 
-TODO
+橋本氏による前回の松江Ruby会議から今回の松江Ruby会議までのMatsue.rbにおける活動内容のうち、GitHubで見れるようなものをまとめて紹介する内容でした(以下はその一部)。
+
+* [[structured_logger|https://github.com/nisyidayuya/structured_logger]]: ログの出力の際に色々出力したい事が多いけど楽にそれを実現するためのgem
+* [[midiosx|https://github.com/motoarika/midiosx]]: OSXのMIDIシーケンサ
+* [[brakefast|https://github.com/sho-h/brakefast]]: brakeman(Railsの脆弱性を見つけてくれるツール)をbullet風に動かすようにしたgem(未完成)
+* [[bundler_gemfile_license_audit|https://github.com/sho-h/bundler_gemfile_license_audit]]: Gemfile中のライセンス違反がすぐわかるようにするためのもの(未完成)
+* [[Matsue.rbのロゴ|https://github.com/matsuerb/matsuerb-logo]]: CC0で公開しているため、Rubyの部分だけ切り取って自由に使うこともできるようにするためのもの
+
+前回の松江Ruby会議でのまつもとさんの講演を受けて、たとえ完璧ではなくても動くものがあれば公開してみようという事で橋本氏のプロダクトに未完成のものがありますが紹介をしたという事でした。
+
+また、RubyQuizの景品の1つでもあるスタッフTシャツは今年も[[@KatoAtsue|https://github.com/KatoAtsue/]]さんデザインによるものだそうです。松江Ruby会議05の時のTシャツのデータについても公開しているとの事ですが、残念ながら今回のものはしまねっこ的に印刷できる枚数に限りがあるため、公開はしていないとの事です。(このTシャツは今回も[[株式会社 spice life さんのオリジナル T シャツ作成サービス TMIX|http://tmix.jp]]からご提供いただきました！)
+
+最後に橋本氏は未完成のものもある状態のため、俺たちの2015年(の成果がわかる)のはこれからだ！と締めくくって滑っていました。
 
 !! スプラウト.rb 〜2年目に突入!!!〜
 
@@ -297,10 +311,11 @@ Rubyプログラミング少年団理事長、副理事長のお二人による�
 
 観客・スタッフ全員参加型の Ruby Quiz を開催しました。
 Matsue.rb スタッフ考案の Ruby に関する択一問題が出題されました。
-すべての問題が Ruby のコードに関する問題で、脳内コンパイラの性能と、いかに日頃から意識して Ruby を使っているかが問われました。
+すべての問題が Ruby のコードに関する問題で、脳内コンパイラの性能と、いかに日頃から意識して Ruby を使っているかが問われました(以下はその内の1問)。
 
 Q. 以下のコードを実行し、aとbを数値にして比較したとき、大きいのはa,bどちらでしょうか？
 
+<<<
 a = (1..9).reduce('') do |sum, value|
     sum.to_s + value.to_s
 end
@@ -308,6 +323,7 @@ end
 b = (1..9).reduce(0) do |sum, value|
     sum + value
 end
+>>>
 
 制限時間1分という中で上記のような問題も出題され、日頃仕事や趣味で Ruby を使っているエンジニアでも苦戦していた様子でした。
 最終的に勝ち残った方には、スポンサーの皆様より豪華景品が送られました。
@@ -331,12 +347,12 @@ Rubyといろんなものをまぜるが好き。
 
 !! 本多 展幸 ([[@nobyuki|https://twitter.com/nobyuki]])
 
-プログラミング教育おじさん
+プログラミング教育おじさん。
 
 !! 木村 友哉([[@tomo-k|https://github.com/tomo-k]])
 
-Apple 信者な Rubyist
+Apple 信者な Rubyist。
 
 !! 橋本 将 ([[@sho_hashimoto|https://twitter.com/sho_hashimoto]])
 
-Matsue.rb の雑用係。[[定例会|http://matsue.rubyist.net/about_us/#matsuerb]]にはだいたい出席してます。[[松江Ruby会議05|http://magazine.rubyist.net/?0050-MatsueRubyKaigi05]]からまさか3号連続での掲載になるとは思わなかった...(要は貯めてた訳ですが、やっと全部終わってほっとしています)
+Matsue.rb の雑用係。[[定例会|http://matsue.rubyist.net/about_us/#matsuerb]]にはだいたい出席してます。[[松江Ruby会議05|http://magazine.rubyist.net/?0050-MatsueRubyKaigi05]]からまさか3号連続での掲載になるとは思わなかった...(要は貯めてた訳ですが、やっと全部終わってほっとしています)。
