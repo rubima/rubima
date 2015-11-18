@@ -87,16 +87,14 @@ RedmineがRails 5に対応するための課題として、strong parameterへ�
 
 !! 昼休憩 (LT)
 
-お昼ごはんを食べながら、山口友洋氏(TODO)の司会で以下の5件のLTの発表が行われました。
+お昼ごはんを食べながら、山口友洋氏([[@tgucchi|https://github.com/tgucchi]])の司会で以下の5件のLTの発表が行われました。
 
 * WWDCに行ってきた話
 ** 発表者
 *** 木村友哉氏([[@tomo-k|https://github.com/tomo-k]])
 * 島根大学ものづくり部Pimの紹介
 ** 発表者
-*** 佐藤公治氏(TODO)
-** 資料
-*** TODO
+*** 佐藤公治氏
 * MidiosX を作りました
 ** 発表者
 *** 進藤元明氏([[@motoakira|https://twitter.com/motoakira]])
@@ -341,4 +339,4 @@ Apple 信者な Rubyist
 
 !! 橋本 将 ([[@sho_hashimoto|https://twitter.com/sho_hashimoto]])
 
-Matsue.rb の雑用係。[[定例会|http://matsue.rubyist.net/about_us/#matsuerb]]にはだいたい出席してます
+Matsue.rb の雑用係。[[定例会|http://matsue.rubyist.net/about_us/#matsuerb]]にはだいたい出席してます。[[松江Ruby会議05|http://magazine.rubyist.net/?0050-MatsueRubyKaigi05]]からまさか3号連続での掲載になるとは思わなかった...(要は貯めてた訳ですが、やっと全部終わってほっとしています)
