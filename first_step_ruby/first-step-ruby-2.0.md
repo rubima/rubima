@@ -76,7 +76,7 @@ rbenv を使ったインストール方法については [OS X で rbenv を使
 
 各ディストリビューションのパッケージマネージャ (apt, yum... etc.) でインストールできる Ruby は 1.8 系の古いものであることが多いです。
 
-[RVM](https://rvm.io) と [rbenv](https://github.com/sstephenson/rbenv/) + [ruby-build](https://github.com/sstephenson/ruby-build) 等の導入を検討してください。
+[RVM](https://rvm.io) や [rbenv](https://github.com/sstephenson/rbenv/) + [ruby-build](https://github.com/sstephenson/ruby-build) 等の導入を検討してください。
 
 導入方法はそれぞれのサイトを参照してください。
 
