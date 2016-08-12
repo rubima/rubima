@@ -100,8 +100,8 @@ rbenv を使ったインストール方法については [OS X で rbenv を使
 
 - vim
 - emacs
+- [Atom](https://atom.io/)
 - [Sublime Text 2](http://www.sublimetext.com/2)
-- [TextMate](http://macromates.com/) (Mac 版のみ)
 
 ### IDE
 
