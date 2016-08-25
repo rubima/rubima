@@ -45,7 +45,7 @@ Ruby に限らず最近のスクリプト系言語 (LL: Lightweight Language と
 Ruby で言うと、以下の2つが主流です。
 
 - [rvm](http://rvm.io/)
-- [rbenv](https://github.com/sstephenson/rbenv) + [ruby-build](https://github.com/sstephenson/ruby-build)
+- [rbenv](https://github.com/rbenv/rbenv) + [ruby-build](https://github.com/rbenv/ruby-build)
 
 最近人気が高まってきているのは rbenv の方ですが、
 身近に教えてくれる人がいるのなら、その方に合わせるのをおすすめします。
@@ -68,7 +68,7 @@ OS X Mavericks(10.9)では 2.0.0 系が入っています。これを使うの�
 
 - [RailsInstaller](http://railsinstaller.org)
 
-バージョン切り替えが必要な場合は RailsInstaller と一緒にインストールされる [RVM](https://rvm.io) を利用したり、 [rbenv](https://github.com/sstephenson/rbenv/) + [ruby-build](https://github.com/sstephenson/ruby-build) 等の導入を検討してください。
+バージョン切り替えが必要な場合は RailsInstaller と一緒にインストールされる [RVM](https://rvm.io) を利用したり、 [rbenv](https://github.com/rbenv/rbenv/) + [ruby-build](https://github.com/rbenv/ruby-build) 等の導入を検討してください。
 
 rbenv を使ったインストール方法については [OS X で rbenv を使って ruby 1.9.3 or 2.0.0 の環境を作る](http://qiita.com/items/9dd797f42e7bea674705) が参考になります。
 
@@ -76,7 +76,7 @@ rbenv を使ったインストール方法については [OS X で rbenv を使
 
 各ディストリビューションのパッケージマネージャ (apt, yum... etc.) でインストールできる Ruby は 1.8 系の古いものであることが多いです。
 
-[RVM](https://rvm.io) や [rbenv](https://github.com/sstephenson/rbenv/) + [ruby-build](https://github.com/sstephenson/ruby-build) 等の導入を検討してください。
+[RVM](https://rvm.io) や [rbenv](https://github.com/rbenv/rbenv/) + [ruby-build](https://github.com/rbenv/ruby-build) 等の導入を検討してください。
 
 導入方法はそれぞれのサイトを参照してください。
 
