@@ -15,7 +15,7 @@
 
 ## 対象読者
 
-今までなんらかのプログラミング言語を触ったことのある方を対象とします。  
+今までなんらかのプログラミング言語を触ったことのある方を対象とします。
 基本的なプログラミング自体の解説はしませんので、適宜プログラミングの入門書等にあたってください。
 
 
@@ -37,7 +37,7 @@ Ruby の処理系にはいくつかの種類があります。
 特に理由が無ければ CRuby を入れておけば間違いないです。
 
 現在最新の安定版の Ruby は [Ruby 公式サイトのダウンロードページ](https://www.ruby-lang.org/ja/downloads/) から確認できます。
-  
+
 まだまだ 1.9.3 も多い状況ですが、これから Ruby を学び始めるのであれば、最新の安定版で問題ないと思います。
 
 Ruby に限らず最近のスクリプト系言語 (LL: Lightweight Language と呼ばれたりする。perl, python, node.js...etc.) で開発をしている人の多くは複数のバージョンを切り替えて扱えるようなツールを使っています。
@@ -45,7 +45,7 @@ Ruby に限らず最近のスクリプト系言語 (LL: Lightweight Language と
 Ruby で言うと、以下の2つが主流です。
 
 - [rvm](http://rvm.io/)
-- [rbenv](https://github.com/sstephenson/rbenv) + [ruby-build](https://github.com/sstephenson/ruby-build)
+- [rbenv](https://github.com/rbenv/rbenv) + [ruby-build](https://github.com/rbenv/ruby-build)
 
 最近人気が高まってきているのは rbenv の方ですが、
 身近に教えてくれる人がいるのなら、その方に合わせるのをおすすめします。
@@ -68,7 +68,7 @@ OS X Mavericks(10.9)では 2.0.0 系が入っています。これを使うの�
 
 - [RailsInstaller](http://railsinstaller.org)
 
-バージョン切り替えが必要な場合は RailsInstaller と一緒にインストールされる [RVM](https://rvm.io) を利用したり、 [rbenv](https://github.com/sstephenson/rbenv/) + [ruby-build](https://github.com/sstephenson/ruby-build) 等の導入を検討してください。
+バージョン切り替えが必要な場合は RailsInstaller と一緒にインストールされる [RVM](https://rvm.io) を利用したり、 [rbenv](https://github.com/rbenv/rbenv/) + [ruby-build](https://github.com/rbenv/ruby-build) 等の導入を検討してください。
 
 rbenv を使ったインストール方法については [OS X で rbenv を使って ruby 1.9.3 or 2.0.0 の環境を作る](http://qiita.com/items/9dd797f42e7bea674705) が参考になります。
 
@@ -76,7 +76,7 @@ rbenv を使ったインストール方法については [OS X で rbenv を使
 
 各ディストリビューションのパッケージマネージャ (apt, yum... etc.) でインストールできる Ruby は 1.8 系の古いものであることが多いです。
 
-[RVM](https://rvm.io) と [rbenv](https://github.com/sstephenson/rbenv/) + [ruby-build](https://github.com/sstephenson/ruby-build) 等の導入を検討してください。
+[RVM](https://rvm.io) や [rbenv](https://github.com/rbenv/rbenv/) + [ruby-build](https://github.com/rbenv/ruby-build) 等の導入を検討してください。
 
 導入方法はそれぞれのサイトを参照してください。
 
@@ -95,13 +95,13 @@ rbenv を使ったインストール方法については [OS X で rbenv を使
 
 ### エディタ
 
-以下のエディタが人気のようです。  
+以下のエディタが人気のようです。
 ぜひ色々試して自分に合ったエディタを探してください。
 
 - vim
 - emacs
+- [Atom](https://atom.io/)
 - [Sublime Text 2](http://www.sublimetext.com/2)
-- [TextMate](http://macromates.com/) (Mac 版のみ)
 
 ### IDE
 
@@ -110,14 +110,13 @@ IDE を使いたい方は [RubyMine](http://www.jetbrains.com/ruby/) を検討�
 
 ## 学習方法
 
-手っ取り早く体系立てて学ぶには本を読むのがいいと思います。rubyの書籍はたくさんありますが、中でもおすすめの2冊を紹介します。
+手っ取り早く体系立てて学ぶには本を読むのがいいと思います。Ruby の書籍はたくさんありますが、中でもおすすめの2冊を紹介します。
 
-他の言語を学んだことがある方は、「初めてのRuby」がおすすめです。薄い本なのですが、rubyらしい考え方のエッセンスが詰まっています。
-[TODO] どうやってリンク貼るのが正しい？アフィリエイトとかは？
+他の言語を学んだことがある方は、[「初めての Ruby」](https://www.oreilly.co.jp/books/9784873113678/)がおすすめです。薄い本なのですが、Ruby らしい考え方のエッセンスが詰まっています。
 
-rubyの文法や文字列操作、配列、メソッド定義などの基本的な内容に加え、ブロックやメタプログラミングの入り口まで含まれています。
+Ruby の文法や文字列操作、配列、メソッド定義などの基本的な内容に加え、ブロックやメタプログラミングの入り口まで含まれています。
 
-さらに深く学びたい方は「メタプログラミングRuby」がおすすめです。
+さらに深く学びたい方は[「メタプログラミング Ruby 第 2 版」](https://www.oreilly.co.jp/books/9784873117430/)がおすすめです。
 
 メタプログラミングの知識があることで、より効率よくプログラミング出来るようになります。
 
@@ -137,13 +136,13 @@ Ruby 本体に gem コマンドが付属しているのですぐに使うこと�
 
 ### [Bundler](http://gembundler.com/)
 
-これもライブラリの管理ツールですが、アプリケーション固有で必要になるライブラリの管理に使います。  
+これもライブラリの管理ツールですが、アプリケーション固有で必要になるライブラリの管理に使います。
 Rails や Padrino 等でアプリケーション開発をする場合はこれを使用する前提となっています。
 
 
 ## 情報の入手方法
 
-**[オブジェクト指向スクリプト言語 Ruby リファレンスマニュアル](http://docs.ruby-lang.org/ja/2.1.0/doc/index.html)**
+**[オブジェクト指向スクリプト言語 Ruby リファレンスマニュアル](http://docs.ruby-lang.org/ja/2.3.0/doc/index.html)**
 
 まずは公式のドキュメントです。
 
@@ -151,17 +150,17 @@ Rails や Padrino 等でアプリケーション開発をする場合はこれ�
 
 ---
 
-**[最速Rubyリファレンスマニュアル検索！ | るりまサーチ](http://doc.ruby-lang.org/ja/search/)**
+**[最速 Ruby リファレンスマニュアル検索！ | るりまサーチ](http://doc.ruby-lang.org/ja/search/)**
 
 マニュアルの検索はこちら。
 
 ---
 
-**[Rubyist Magazine](http://jp.rubyist.net/magazine/)**
+**[Rubyist Magazine](http://magazine.rubyist.net/)**
 
 本誌。通称るびま。
 
-Webで発行されているRubyist向け雑誌です。  
+Web で発行されている Rubyist 向け雑誌です。
 技術的な情報のみならず、インタビューやエッセイが掲載されていたりもします。
 
 ---
@@ -178,7 +177,7 @@ gem の API ドキュメントが見られるサイトです。
 
 ---
 
-**[Ruby5](http://ruby5.envylabs.com/)**
+**[Ruby5](https://ruby5.codeschool.com/)**
 
 Ruby 関連の最新情報がテーマの Podcast です。 (英語)
 
@@ -193,7 +192,7 @@ Rails のスクリーンキャストです。 (英語)
 
 Ruby はコミュニティ活動が非常に活発です。
 
-勉強会やコミュニティに参加するようになると、新しい情報や実務に基づいた詳しい情報なども入手することができるようになります。  
+勉強会やコミュニティに参加するようになると、新しい情報や実務に基づいた詳しい情報なども入手することができるようになります。
 
 まずは [地域Rubyの会](https://github.com/ruby-no-kai/official/wiki/RegionalRubyistMeetUp) を探してみるといいと思います。
 
