@@ -63,52 +63,54 @@
 ### mrubyのJIT
 
 * 発表者
-  * 三浦 英樹
+  * 三浦 英樹 (@miura1729)
 * 資料
-  * []()
+  * [https://www.slideshare.net/miura1729/mrubyjit](https://www.slideshare.net/miura1729/mrubyjit)
 
 ### Dynamic certificate internals with ngx_mruby
 
 * 発表者
-  * 奥村 晃弘
+  * 奥村 晃弘 (@hfm)
 * 資料
-  * []()
+  * [https://speakerdeck.com/hfm/dynamic-certificate-internals-with-ngx-mruby-number-nagoyark03](https://speakerdeck.com/hfm/dynamic-certificate-internals-with-ngx-mruby-number-nagoyark03)
 
 ### 未来のサーバ基盤への Haconiwa/mruby の関わり - コンテナ仮想化のその先へ
 
 * 発表者
-  * 近藤 宇智朗
+  * 近藤 宇智朗 (@udzura)
 * 資料
-  * []()
+  * [https://speakerdeck.com/udzura/haconiwa-and-future-os](https://speakerdeck.com/udzura/haconiwa-and-future-os)
 
 ### Ruby で TensorFlow
 
 * 発表者
-  * antimon2
+  * antimon2 (@antimon2)
 * 資料
-  * []()
+  * [https://hackmd.io/p/H1_fDnU_g#/](https://hackmd.io/p/H1_fDnU_g#/)
 
 ### Fight with growing data on Rails
 
 * 発表者
-  * joker1007 (Tomohiro Hashidate)
+  * joker1007 (Tomohiro Hashidate) (@joker1007)
 * 資料
-  * []()
+  * [https://speakerdeck.com/joker1007/fight-with-growing-data-on-rails](https://speakerdeck.com/joker1007/fight-with-growing-data-on-rails)
 
 ### 招待講演 re: rinda
 
 * 発表者
-  * 関 将俊
+  * 関 将俊 (@m_seki)
 * 資料
-  * []()
+  * [https://speakerdeck.com/m_seki/re-rinda-2017](https://speakerdeck.com/m_seki/re-rinda-2017)
 
 ### 大喜利
+
+![](https://pbs.twimg.com/media/C4X-s38VcAAEkVR.jpg)
 
 * 回答者
   * mzp
   * 須藤 功平
   * 関 将俊
 * 司会
-  * Dominion525
+  * Dominion525 (@Dominion525)
 
 ## さいごに
