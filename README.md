@@ -8,6 +8,12 @@ If you need any support, please create an issue to the Rubyist Magazine support 
 
 次号スケジュールは Issue に書くようになりました。
 
+* 56 号 : https://github.com/rubima/rubima/issues/432
+* 55 号 : https://github.com/rubima/rubima/issues/418
+* 54 号 : https://github.com/rubima/rubima/issues/402
+* 東京 Ruby 会議 11 特別号 : https://github.com/rubima/rubima/issues/398
+* 53 号 : https://github.com/rubima/rubima/issues/386
+* 52 号 : https://github.com/rubima/rubima/issues/369
 * 51 号 : https://github.com/rubima/rubima/issues/353
 * 50 号 : https://github.com/rubima/rubima/issues/324
 * 49 号 : https://github.com/rubima/rubima/issues/304
@@ -27,3 +33,9 @@ If you need any support, please create an issue to the Rubyist Magazine support 
 * 2014/12 - 49 号
 * 2015/05 - 50 号
 * 2015/09 - 51 号
+* 2015/12 - 52 号
+* 2016/04 - 53 号
+* 2016/05 - 東京 Ruby 会議 11 特別号
+* 2016/08 - 54 号
+* 2017/03 - 55 号
+* 2017/08 - 56 号
