@@ -1089,3 +1089,6 @@ Hanami は Rails に比べて作成するファイルの数が多いし、開発
 
 主に Rails を用いた受託開発を 5 年程続けている。
 最近は、千葉の田舎で五右衛門風呂に薪をくべながらコードを書く生活を送っている。
+
+- Twitter: https://twitter.com/kbaba1001
+- Facebook: https://www.facebook.com/kbaba1001
