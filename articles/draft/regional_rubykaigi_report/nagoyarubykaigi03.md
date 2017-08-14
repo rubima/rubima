@@ -18,7 +18,7 @@
 
 ## プログラム
 
-### 前座LT
+## 前座LT
 
 寄席らしく、出囃子の太鼓の音が響く中、初めは、前座として、LTを2本でした。
 
@@ -26,6 +26,10 @@
 | --- | --- |
 | @jacoyutorius | RubyFriends |
 | @yasulab | [Coder DojoとRails CMS](https://speakerdeck.com/yasulab/coderdojo-to-rails-cms) |
+
+## 午前の部
+
+前座で場が暖まり、午前の部が始まりました。
 
 ### Ruby/Railsはじめてチームの力をメキメキつけた！
 
@@ -36,8 +40,6 @@
 * 資料
   * [https://speakerdeck.com/bash0c7/number-nagoyark03](https://speakerdeck.com/bash0c7/number-nagoyark03)
 
-前座で場が暖まり、最初に登壇したのは、小芝さん（@bash07C）でした。「Ruby/Railsはじめてチームの力をメキメキつけた！」というタイトルで、チームの自己組織化について話して頂きました。発表も素晴らしかったですが、今回の会場にマッチした着物が本職の噺家のようで素敵でした。
-
 ### ぺろぺろ: Github pull request bot framework
 
 ![](https://pbs.twimg.com/media/C4WTlysUEAArt-B.jpg)
@@ -46,8 +48,6 @@
   * mzp (@mzp)
 * 資料
   * [https://speakerdeck.com/mzp/peropero-github-pull-request-bot-framework](https://speakerdeck.com/mzp/peropero-github-pull-request-bot-framework)
-
-次に登壇したのは、mzp さん（@mzp）でした。「ぺろぺろ: Github pull request bot framework」というタイトルで、GitHub からのWebフックを受け取り、様々な自動化をするbotフレームワークについて、話して頂きました。小芝さんから、足のしびれに気をつけろと忠告がありながら、途中で、足を崩していたのが印象的でした。
 
 ### 招待講演 Apache ArrowのRubyバインディングをGObject Introspectionで
 
@@ -58,9 +58,13 @@
 * 資料
   * [https://slide.rabbit-shocker.org/authors/kou/nagoya-rubykaigi-03/ ](https://slide.rabbit-shocker.org/authors/kou/nagoya-rubykaigi-03/ )
 
-午前の締めは、須藤さん（@ktou）による招待講演でした。「Apache ArrowのRubyバインディングをGObject Introspectionで」というタイトルで、Apache ArrowをRubyで活用するお話でした。寄席を意識した、まくら・本題・オチという内容で、自前の拍子木ならしながら、最後にきちんとオチを取っていたのはさすがでした。
+## 午後の部
+
+スポンサー様のLT3本の後、午後の部が始まりました。
 
 ### mrubyのJIT
+
+![](https://c1.staticflickr.com/3/2213/32856223675_7f31c92094_c.jpg)
 
 * 発表者
   * 三浦 英樹 (@miura1729)
@@ -69,12 +73,16 @@
 
 ### Dynamic certificate internals with ngx_mruby
 
+![](https://pbs.twimg.com/media/C4XIGPTUkAAnYPp.jpg)
+
 * 発表者
   * 奥村 晃弘 (@hfm)
 * 資料
   * [https://speakerdeck.com/hfm/dynamic-certificate-internals-with-ngx-mruby-number-nagoyark03](https://speakerdeck.com/hfm/dynamic-certificate-internals-with-ngx-mruby-number-nagoyark03)
 
 ### 未来のサーバ基盤への Haconiwa/mruby の関わり - コンテナ仮想化のその先へ
+
+![](https://pbs.twimg.com/media/C4XN_XqUcAAVOJq.jpg)
 
 * 発表者
   * 近藤 宇智朗 (@udzura)
@@ -83,12 +91,16 @@
 
 ### Ruby で TensorFlow
 
+![](https://c1.staticflickr.com/3/2129/32041351353_da0120aca7_c.jpg)
+
 * 発表者
   * antimon2 (@antimon2)
 * 資料
   * [https://hackmd.io/p/H1_fDnU_g#/](https://hackmd.io/p/H1_fDnU_g#/)
 
 ### Fight with growing data on Rails
+
+![](https://pbs.twimg.com/media/C4Xdr2RUMAA_T57.jpg)
 
 * 発表者
   * joker1007 (Tomohiro Hashidate) (@joker1007)
@@ -97,12 +109,16 @@
 
 ### 招待講演 re: rinda
 
+![](https://c1.staticflickr.com/1/424/32041361433_21eb3a9d22_c.jpg)
+
 * 発表者
   * 関 将俊 (@m_seki)
 * 資料
   * [https://speakerdeck.com/m_seki/re-rinda-2017](https://speakerdeck.com/m_seki/re-rinda-2017)
 
-### 大喜利
+## 大喜利
+
+再び、スポンサー様のLT3本の後、寄席らしい最後のプログラムとなる大喜利でした。
 
 ![](https://pbs.twimg.com/media/C4X-s38VcAAEkVR.jpg)
 
@@ -114,3 +130,25 @@
   * Dominion525 (@Dominion525)
 
 ## さいごに
+
+6年ぶりということで、名古屋らしく他の地域 Ruby 会議では、開催したこと無いような場所ということで、大須演芸場で開催してみました。寄席ということで、演者の
+方々には、正座で発表という無茶をして頂きました。公演中、足がしびれたりしたり
+といったトラブルもありましたが、楽しんで頂けたようでした。また、来て頂いた方
+にも好評のようでした。それが、実行委員として、何よりでした。
+
+## 謝辞
+
+名古屋 Ruby 会議03のスポンサーとして以下の6社様には、多大なご協力を頂きました。実行委員一同、感謝申し上げます。
+
+* [株式会社永和システムマネジメント](http://agile.esm.co.jp/)
+* [株式会社Misoca](https://www.misoca.jp/)
+* [GMOペパボ株式会社](https://pepabo.com/)
+* [株式会社エイチーム](http://www.a-tm.co.jp/)
+* [クックパッド株式会社](https://cookpad.com/)
+* [株式会社spice life](http://spicelife.jp/) （Tシャツスポンサー）
+
+（順不同、敬称略）
+
+## 書いた人
+
+* かたぎり えいと （@eitoball）Ruby東海所属。Ruby大好きですが、Elixirにも浮気しています。
