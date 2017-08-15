@@ -29,7 +29,7 @@
 Hanami はとても面白い Web フレームワークだ。簡単に言うと「Rails がもっとこうだったらいいのになぁ」と僕が思うようなことを全部やってくれた。
 バージョン 1.0.0 だから機能として不十分な部分もあるけれど、それを踏まえてもワクワクするフレームワークだ。
 
-「まだRubyを使うの？ 新しく何かを学ぶなら Go とか Elixir とかの方がいいんじゃないの？」
+「まだ Ruby を使うの？ 新しく何かを学ぶなら Go とか Elixir とかの方がいいんじゃないの？」
 
 それも尤もな意見だ。いや、でもそう言わないでくれ。
 
@@ -39,7 +39,7 @@ Hanami は本当に面白い Web フレームワークだ。
 
 Hanami を使えばきっと Rails とは違う目線で Ruby を見ることができると思う。
 
-本記事の読者は今まで Rails を使ってWebサービスを作ってきた人を想定している。
+本記事の読者は今まで Rails を使って Web サービスを作ってきた人を想定している。
 本記事では Hanami と Rails の比較を頻繁にするが、これは Rails を使ってきた人に Hanami を紹介するためには一番いい方法だと思うからだ。
 はじめに断っておくが、僕は Rails の批判をしたいわけじゃない。
 
@@ -64,7 +64,7 @@ Rails よりもずっとマジックが少なくて Pure Ruby に近い。
 
 Rails は Monkey-Patching で Ruby を拡張している。メソッドを使おうとしたときにそれが Ruby の標準ライブラリのメソッドなのか Rails が独自に拡張したメソッドなのかよくわからなくなる。
 Hanami ではそのようなことはしない。
-これはもちろん長所短所がある。Railsのように拡張した方が便利だけど、Hanamiはそれ以上にシンプルであることを選択した。
+これはもちろん長所短所がある。 Rails のように拡張した方が便利だけど、 Hanami はそれ以上にシンプルであることを選択した。
 
 ### Hanami の設計思想
 
@@ -130,15 +130,15 @@ bookshelf
 Hanami のディレクトリ構造は一見 Rails に似ているが、実際には全く違う。
 
 大雑把に言うとデータフローに関する部分は `apps/` 以下に、 ビジネスロジックに関する部分は `lib/` 以下に定義する。
-`apps/` 以下には Routing 、 Controller 、 View 、 Assets に関するもの、 `lib/` 以下には Model と Integrator に関するものを置く。
+`apps/` 以下には Routing 、 Controller 、 View 、 Assets に関するもの、 `lib/` 以下には Model と Interactor に関するものを置く。
 図にすると次のようになる。
 
 ![images/hanami-ddd.png](images/hanami-ddd.png)
 
 Hanami では Model を Repository と Entity の2層で表現している。
 
-図中の "Integrator" の部分が点線になっているが、これは Hanami では Integrator の実装がまだ不十分だからだ。
-Integrator とは Controller と Model の間にあって、ビジネスロジックをまとめておくための層になる。
+図中の "Interactor" の部分が点線になっているが、これは Hanami では Interactor の実装がまだ不十分だからだ。
+Interactor とは Controller と Model の間にあって、ビジネスロジックをまとめておくための層になる。
 
 `apps/` 以下にはアプリケーションとして複数のディレクトリを定義することができる。
 例えば、ECサイトを作るときにWebサービスを顧客(Customer)向け、店舗(Shop)向け、管理者(Admin)向けに分けたい場合、次のようなディレクトリ構成にすればいい。
@@ -159,7 +159,7 @@ Hanami の各層についてひとつずつ見ていこう。
 
 ### Router
 
-Hanami は Rack Application だ。 Hanami::Router はパスを Rack Application にマッピングする。
+Hanami は Rack Application だ。 `Hanami::Router` はパスを Rack Application にマッピングする。
 
 一番無骨な例はこうだ。
 
@@ -179,9 +179,9 @@ get '/hello', to: ->(env) { [200, {}, ['Hello from Hanami!']] }
 - `#call` メソッドは要素数が3の配列を返し、配列の値は前から順に Status 、Headers 、Body であること
 
 先程のプログラムはこの Rack Application の仕様を満たしている。
-結果として、 Hanami::Router は `/hello` に GET リクエストを受け取ると `Hello from Hanami!` と返すわけだ。
+結果として、 `Hanami::Router` は `/hello` に GET リクエストを受け取ると `Hello from Hanami!` と返すわけだ。
 
-Hanami::Router は Rack Application であれば何でもマッピングできるため、他にも次のような書き方ができる。
+`Hanami::Router` は Rack Application であれば何でもマッピングできるため、他にも次のような書き方ができる。
 
 ```ruby
 get '/proc',       to: ->(env) { [200, {}, ['Hello from Hanami!']] }
@@ -194,7 +194,7 @@ get '/rails',      to: ActionControllerSubclass.action(:new)
 一番使うのは2番めの `get '/action', to: "home#index"` という書き方だろう。
 これは HTTP リクエストを `home#index` Action にマッピングする。Action (Controller) については次節で説明する。
 
-また、Rails 同様 `resources` メソッドを用いることで RESTfull Resource を定義できる。
+また、Rails 同様 `resources` メソッドを用いることで RESTful Resource を定義できる。
 
 ```ruby
 resources :books
@@ -215,12 +215,12 @@ resources :books
 
 #### Router の高度な使い方
 
-Hanami::Router はパスを正規表現やワイルドカードでマッチさせる便利な機能が備わっている。
+`Hanami::Router` はパスを正規表現やワイルドカードでマッチさせる便利な機能が備わっている。
 これについては公式サイトのドキュメントを見てほしい。
 
-- [Hanami | Guides - Basic Usage](http://hanamirb.org/guides/routing/basic-usage/)
+- [Hanami Routing Basic Usage](http://hanamirb.org/guides/routing/basic-usage/)
 
-でも、Hanami::Router が単に Rack Application にマッピングするだけということは、もっと柔軟なマッピングもできる。
+でも、`Hanami::Router` が単に Rack Application にマッピングするだけということは、もっと柔軟なマッピングもできる。
 例えば、 root パスにアクセスしたときにユーザーがサインインしているかどうかによってアクションを変えるケースを考えてみよう。
 下記の例では、サインインしている場合 `env['rack.session']['user_id']` に値があるものとする。
 
@@ -302,7 +302,7 @@ end
 
 もちろん [Rack::Test](https://github.com/rack-test/rack-test) を使うこともできるけど、
 上記のように入力値と戻り値を確認するだけで十分なケースは多い。
-それにこれはただのメソッド呼び出しだから Rack::Test を使うよりも実行速度が速い。
+それにこれはただのメソッド呼び出しだから `Rack::Test` を使うよりも実行速度が速い。
 
 ### Validation
 
@@ -367,7 +367,7 @@ Strong Parameters の目的は Mass Assignment 脆弱性対策だけど、それ
 これはロジックが分散してわかりづらいし、層を跨いで暗黙の依存関係があるような感じがして気持ち悪い。
 
 Hanami は Controller にロジックをまとめる設計になっている。
-だがこれはこれで思い切った割り切りをしているので課題がある。課題については Integrator の節で説明する。
+だがこれはこれで思い切った割り切りをしているので課題がある。課題については Interactor の節で説明する。
 
 ### View
 
@@ -416,7 +416,7 @@ HTML Template は erb 以外にも [Tilt](https://github.com/rtomayko/tilt) で�
 
 View 用のクラスに定義したメソッドは HTML Template から呼び出すことができる。
 HTML Template から呼び出すことができるメソッドは1対1対応しているクラスで定義したものだけなので、
-それ以外のクラスのメソッドを呼び出そうとした場合は No Method Error になる。
+それ以外のクラスのメソッドを呼び出そうとした場合は `NoMethodError` になる。
 
 Rails では View のためのロジックを定義するには Helper モジュールを使うしかなかった。
 Rails の Helper モジュールはデフォルトでは全て読み込まれるが、設定を変更すればパスに対応した Helper だけを読み込むことができる。
@@ -424,7 +424,7 @@ Rails の Helper モジュールはデフォルトでは全て読み込まれる
 どれだけ partial で Template を分割しても、使用できる Helper モジュールは Controller の粒度で決まるため、いまいち使い勝手が悪い。
 
 [Draper](https://github.com/drapergem/draper) や [ActiveDecorator](https://github.com/amatsuda/active_decorator) のように
-Model の decorator を作成して View 用のロジックを記述する gem もあるが、これらは Dependency Injection するオブジェクトを
+Model の decorator を作成して View 用のロジックを記述する gem もあるが、これらは [Dependency Injection](http://wiki.c2.com/?DependencyInjection) するオブジェクトを
 拡張するものなので Template とは無関係だから Controller の複雑さは解消しない。
 
 Hanami のように Template と Ruby のクラスが1対1に対応することで、ほとんど全てのViewのためのロジックを
@@ -507,7 +507,7 @@ HTMLの生成とリクエストを受ける側のアクションが依存しな�
 ![images/hanami-ddd.png](images/hanami-ddd.png)
 
 今までずっとアプリケーション層を巡る旅をしてきた。ここからはドメイン層を見ていこう。
-ドメイン層には Integrator 、Repository 、 Entity の3層があり、Modelは Repository 、 Entity の2層で表現されている。
+ドメイン層には Interactor 、Repository 、 Entity の3層があり、Modelは Repository 、 Entity の2層で表現されている。
 これは [Repository パターン](https://martinfowler.com/eaaCatalog/repository.html) と呼ばれている設計手法だ。
 
 Entity の方がわかりやすいので、まずはこちらから見ていこう。
@@ -579,7 +579,7 @@ user_repository.users.where(email: email).first
 次の理由がある。
 
 - 呼び出す側が Repository の内部構造に依存している
-- 呼び出す側がSQLについて考えてしまうと、レイヤー間の抽象度が揃わなくなる
+- 呼び出す側が SQL について考えてしまうと、レイヤー間の抽象度が揃わなくなる
 - ただのメソッドチェーンでは意図が明白ではない
 - テストしづらい
 - もしストレージ(RDBMS)を変更することになったら、呼び出す側を変更しなければならない
@@ -603,7 +603,7 @@ user_repository.users
 
 これは Hanami の Model の実装が内部では [ROM.rb](http://rom-rb.org/) を使っているためだ。
 
-ROM は Ruby Object Mapper の略で、 RDBMS 以外にも様々なもの(CSVやHTTPリソースなど)をデータストレージとして扱うことができる gem だ。
+ROM は Ruby Object Mapper の略で、 RDBMS 以外にも様々なもの ( CSV や HTTP リソースなど ) をデータストレージとして扱うことができる gem だ。
 ROM における SQL クエリの発行は [rom-sql](https://github.com/rom-rb/rom-sql) という gem で行なっていて、
 これは [Sequel](https://github.com/jeremyevans/sequel) のラッパーになっている。
 だから、 `Hanami::Repository` では Sequel の機能がだいたい使える。
@@ -623,18 +623,18 @@ users.where(Sequel.like(:email, '%kbaba1001%')) # WHERE ("email" LIKE '%kbaba100
 Sequel は ORM として豊かな表現力を持っている。これにより様々な SQL クエリを発行することができる。
 詳しくは [Sequel の README](https://github.com/jeremyevans/sequel) を参照してほしい。
 
-### Integrator
+### Interactor
 
-最後に Integrator の話をしよう。 Integrator は [Hanami - Guide](http://hanamirb.org/guides/) に登場しない。
+最後に Interactor の話をしよう。 Interactor は [Hanami - Guide](http://hanamirb.org/guides/) に登場しない。
 しかし DDD の観点からすると非常に重要な層なので説明する。
-Integrator の責務はビジネスロジックをまとめることだ。
+Interactor の責務はビジネスロジックをまとめることだ。
 
-まず、 Integrator を用いた場合のアーキテクチャ設計の概念図は次のようになる。
+まず、 Interactor を用いた場合のアーキテクチャ設計の概念図は次のようになる。
 
 ![images/hanami-ddd-service.png](images/hanami-ddd-service.png)
 
-Integrator は Controller と Repository の中間に位置する。
-Hanami では Integrator がない場合 Controller にビジネスロジックを書くことになる。
+Interactor は Controller と Repository の中間に位置する。
+Hanami では Interactor がない場合 Controller にビジネスロジックを書くことになる。
 まずこのケースから見てみよう。
 
 ```ruby
@@ -683,12 +683,12 @@ end
 
 Action の責務は HTTP リクエストにレスポンスを返すことなので、ビジネスロジックを記述することは [単一責任の原則(SRP)](https://en.wikipedia.org/wiki/Single_responsibility_principle) に違反している。
 そのため、ここで使っているロジックを他の場所で流用したい場合、Action にロジックがあると使いづらい。
-そこで、 Integrator を導入することでこれらのビジネスロジックを Action から分離して、ドメイン層に移動してみよう。
+そこで、 Interactor を導入することでこれらのビジネスロジックを Action から分離して、ドメイン層に移動してみよう。
 
 #### Hanami::Interactor
 
 Interactor の作成単位にはいくつかの設計があるが、ここでは Entity 毎に作成する方法を紹介する。
-Hanami における Integrator は実は [hanami-utils](https://github.com/hanami/utils) gem 内で [Hanami::Interactor](http://www.rubydoc.info/gems/hanami-utils/Hanami/Interactor/) として提供されている。
+Hanami における Interactor は実は [hanami-utils](https://github.com/hanami/utils) gem 内で [Hanami::Interactor](http://www.rubydoc.info/gems/hanami-utils/Hanami/Interactor/) として提供されている。
 
 これを使ってみよう。
 
@@ -729,7 +729,7 @@ result = UserInteractor::Create.new(
     password: 'password',
     password_confirmation: 'password'
   }
-).call #=> Hanami::Integrator::Result のインスタンスを返す
+).call #=> Hanami::Interactor::Result のインスタンスを返す
 
 result.failure? #=> false
 result.successful? #=> true
@@ -744,8 +744,8 @@ result.foo #=> raises NoMethodError
 - `#valid?` を実行する
 - `#valid?` の戻り値が真値であれば、クラスに定義された `#call` を実行する
 - (`#valid?` の戻り地が偽値であれば、何もしない)
-- Hanami::Integrator::Result のインスタンスに `.expose` メソッドで指定したインスタンス変数を Dependency Injection する
-- Hanami::Integrator::Result のインスタンスを返す
+- Hanami::Interactor::Result のインスタンスに `.expose` メソッドで指定したインスタンス変数を Dependency Injection する
+- Hanami::Interactor::Result のインスタンスを返す
 
 この動きにより、 `#call` には Validation をパスした時のみ実行するビジネスロジックを記述することができる。
 `#valid?` には Validation の結果を呼び出すようなメソッドを定義すれば良い。
@@ -797,12 +797,12 @@ module Web::Controllers::Users
 end
 ```
 
-これにより、 User を生成する処理を Integrator に移動することが出来た。
+これにより、 User を生成する処理を Interactor に移動することが出来た。
 
 しかしまだ Validation が Controller に残っている。
-僕としては Integrator が受け入れ可能なパラメータと Validation も把握している方が好きだ。
+僕としては Interactor が受け入れ可能なパラメータと Validation も把握している方が好きだ。
 
-今度は Validation を Integrator で扱えるようにしよう。
+今度は Validation を Interactor で扱えるようにしよう。
 
 #### Hanami::Validations
 
@@ -840,10 +840,10 @@ result.failure? #=> true
 result.messages #=> {:email=>["invalid email format"]}
 ```
 
-さて、これを Integrator 内で使ってみよう。
+さて、これを Interactor 内で使ってみよう。
 
 ```ruby
-# lib/bookshelf/interactors/user_integrator/create.rb
+# lib/bookshelf/interactors/user_Interactor/create.rb
 require 'hanami/interactor'
 require 'hanami/validations'
 
@@ -933,18 +933,18 @@ end
 ```
 
 これにより、 Controller からビジネスロジックを切り離すことができた。
-Controller は HTTP リクエストを受け取ったら Integrator に処理を委ねる。
-Controller は Integrator の中でどのような処理が行われるかを気にすることなく、成功か失敗かに応じて HTTP レスポンスを変更する。
+Controller は HTTP リクエストを受け取ったら Interactor に処理を委ねる。
+Controller は Interactor の中でどのような処理が行われるかを気にすることなく、成功か失敗かに応じて HTTP レスポンスを変更する。
 つまり Controller はデータフローを処理することに集中できる。
 
-Integrator は Controller の名前空間から独立しているから、どの Controller からでもアクセスできるし、
-他の Integrator から呼び出すこともできる。
-Integrator 間のコードの重複の解消も、名前空間で別れた Controller で行うよりやりやすい。
+Interactor は Controller の名前空間から独立しているから、どの Controller からでもアクセスできるし、
+他の Interactor から呼び出すこともできる。
+Interactor 間のコードの重複の解消も、名前空間で別れた Controller で行うよりやりやすい。
 Validation やビジネスロジックのテストも HTTP や Rack から独立して行うことができる。
 
 #### Test Factory
 
-余談のような話になるが Integrator を使うと、 テスト用のデータ生成器 (Test Factory) を作成することができる。
+余談のような話になるが Interactor を使うと、 テスト用のデータ生成器 (Test Factory) を作成することができる。
 
 ```ruby
 # spec/factories/user_factory.rb
@@ -982,9 +982,9 @@ end
 ```
 
 これにより [FactoryGirl](https://github.com/thoughtbot/factory_girl) や [Fabrication](https://github.com/paulelliott/fabrication) のような gem を使わなくてもテスト用のデータを作成しやすくなる。
-テストでも Integrator を使うことでシステム内で使用するデータ生成ロジックが統一されるので、
+テストでも Interactor を使うことでシステム内で使用するデータ生成ロジックが統一されるので、
 テストだけパスして不具合を見落とすというミスが少なくなる。
-もし Integrator のロジックを変更したら、上記の Factory を使っているテストも落ちるので影響があるコードを修正しやすい。
+もし Interactor のロジックを変更したら、上記の Factory を使っているテストも落ちるので影響があるコードを修正しやすい。
 
 実のところ僕は FactoryGirl や Fabrication のような gem が嫌いだ。これらの gem はシステム内のビジネスロジックを
 DSL を用いて別途再定義しているに過ぎない。
@@ -1034,8 +1034,8 @@ Railsを導入する時、クライアントはしばしば「これはプロト
 結局のところ、それまでのメンテナンスについてエンジニアは考えなければならない。
 
 Railsプロジェクトに蔓延した Fat Model 、 Fat Controller 、信用できないテスト、層をまたいで依存したビジネスロジック、
-難解で巧妙な Model 同士のやり取り、Rails Mountable Engine を用いた独自ルールやDSLだらけの gem 、
-eager loading に頼り切った非効率なSQL 、ロジックまみれの View ……。
+難解で巧妙な Model 同士のやり取り、Rails Mountable Engine を用いた独自ルールや DSL だらけの gem 、
+eager loading に頼り切った非効率な SQL 、ロジックまみれの View ……。
 メンテナンス性を下げる要因はたくさんあるが、共通して言えることは、複雑な要件に対して簡単すぎる設計をしてしまっていることだ。
 しかもこれらのコードの不吉な匂いは、システムをローンチする頃には既に漂い始めている。
 
@@ -1044,7 +1044,7 @@ eager loading に頼り切った非効率なSQL 、ロジックまみれの View
 ActiveRecord gem と ActiveRecord パターンに嫌気が差して SQL クエリを発行するメソッドを Refinements で別の module に切り離したりもした。（僕は SQL を書くのは苦痛じゃない方だから、 ActiveRecord が何もかも eager loading で解決しようとするのが好きじゃない）
 これらは [DDD(Domain-driven design)](https://www.amazon.co.jp/dp/B00GRKD6XU) や [DCI](http://www.artima.com/articles/dci_vision.html) の考え方を参考にしていた。
 
-この試みは結構うまくいった。Rails にも Integrator を導入することで `accepts_nested_attributes_for` や
+この試みは結構うまくいった。Rails にも Interactor を導入することで `accepts_nested_attributes_for` や
 Validation の `if` オプションなどを使わなくて良くなった。
 Refinements で SQL クエリを切り離す方法も、その SQL クエリがどのような状況で使われるのか明白になってよかった。
 複雑な SQL を書くときは、古典的だが erb で SQL を書くことさえあったが、そのロジックを Module の中に隠蔽できたのは良かった。
