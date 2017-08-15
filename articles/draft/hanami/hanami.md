@@ -507,7 +507,7 @@ HTMLの生成とリクエストを受ける側のアクションが依存しな�
 ![images/hanami-ddd.png](images/hanami-ddd.png)
 
 今までずっとアプリケーション層を巡る旅をしてきた。ここからはドメイン層を見ていこう。
-ドメイン層には Interactor 、Repository 、 Entity の3層があり、Modelは Repository 、 Entity の2層で表現されている。
+ドメイン層には Interactor 、Repository 、 Entity の3層があり、 Model は Repository と Entity の2層で表現されている。
 これは [Repository パターン](https://martinfowler.com/eaaCatalog/repository.html) と呼ばれている設計手法だ。
 
 Entity の方がわかりやすいので、まずはこちらから見ていこう。
