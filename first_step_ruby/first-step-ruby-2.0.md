@@ -89,9 +89,11 @@ rbenv を使ったインストール方法については [OS X で rbenv を使
 - Linux では /etc/paths はありませんので、無視してください
 - **ruby-build を使う** の部分は以下のように読み替えてください (RUBY_CONFIGURE_OPTS の指定が不要です)
 
-    $ rbenv install 1.9.3-p395
-    $ rbenv install 2.0.0-p0
-    $ rbenv shell 1.9.3-p395
+```
+$ rbenv install 1.9.3-p395
+$ rbenv install 2.0.0-p0
+$ rbenv shell 1.9.3-p395
+```
 
 ### エディタ
 
