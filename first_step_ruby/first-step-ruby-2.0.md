@@ -167,27 +167,9 @@ Web で発行されている Rubyist 向け雑誌です。
 
 ---
 
-**[The Ruby Toolbox](https://www.ruby-toolbox.com/)**
-
-人気のある gem を探すことができます。
-
----
-
 **[RubyDoc.info](http://rubydoc.info/)**
 
 gem の API ドキュメントが見られるサイトです。
-
----
-
-**[Ruby5](https://ruby5.codeschool.com/)**
-
-Ruby 関連の最新情報がテーマの Podcast です。 (英語)
-
----
-
-**[RailsCasts](http://railscasts.com/)**
-
-Rails のスクリーンキャストです。 (英語)
 
 
 ## コミュニティ／勉強会
