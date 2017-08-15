@@ -1022,6 +1022,34 @@ Rails が提供する Monkey-Patching は便利だが、同じ機能がほしい
 自前で作るなら Monkey-Patching をする代わりにただのメソッドで機能を提供してもいいし、
 Refinements を活用すれば安全に Monkey-Patching を行うこともできる。
 
+## その他の Hanami のプロジェクト
+
+今まで Hanami の機能を一通り紹介してきたが、他にも実験段階のものも含めていくつかのプロジェクトがあるので紹介する。
+
+### Hanami::Cli
+
+https://github.com/hanami/cli
+
+これは `hanami` コマンドの内部実装 *ではなく* 、 [Thor](https://github.com/erikhuda/thor) のようなコマンドラインインタフェースを提供する汎用的な gem だ。
+
+### Hanami::Events
+
+https://github.com/hanami/events
+
+これは Event 処理を行うための gem だ。
+Rails の ActiveJob のように非同期処理を実行することもできるが、
+主目的は Martin Fowler が提案している [Event-Driven Architecture](https://www.youtube.com/watch?v=STKCRSUsyP0) を実装することだ。
+
+まだ実験段階だが、これを用いたプロジェクトのサンプルコードもあり、 Event-Driven Architecture の雰囲気を体験することができる。
+
+https://github.com/davydovanton/hanami_event_example
+
+### Hanami 2.0
+
+Hanami 2.0 に向けてのアイディアも既にいくつか公開されているので、興味のある方は下記のサイトを確認してほしい。
+
+https://discourse.hanamirb.org/t/hanami-2-0-ideas/306
+
 ## まとめ
 
 もう 5 年近く Rails で仕事をしている。
