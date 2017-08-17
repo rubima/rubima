@@ -448,3 +448,10 @@ Ruby の `def` に似た，Elixir の `def` で関数を定義します．
 わかりやすさのために，`spawn` や `link` や `monitor`を直接利用していましたが，
 私がこれまで眺めたことのある Erlang/Elixir ライブラリたちではそれらはあまり使われず，OTP を使うものが多かったです．
 プロダクションで利用するコードにはOTPを利用しましょう．
+
+# 著者について
+
+ヽ（´・肉・｀）ノ [@niku_name](https://twitter.com/niku_name)
+札幌に住んでいて，お仕事や趣味で Ruby を書いています．
+だいたい毎週木曜日に開催されている[サッポロビーム](http://sapporo-beam.github.io/)というErlangVMについて話す集まりに参加しています．
+たまに RubySapporo.beam というイベント ( [#1](https://rubysapporo.doorkeeper.jp/events/50956), [#2](https://rubysapporo.doorkeeper.jp/events/57253) ) を開催しています．
