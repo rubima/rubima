@@ -13,7 +13,7 @@ If you need any support, please create an issue to the Rubyist Magazine support 
 | 発行予定 | 号数 | Issue |
 | -------- | ---- | ----- |
 | 2018/02 | Ruby25周年記念イベントの事後特集号 | https://github.com/rubima/rubima/issues/450 |
-| [2018/01](https://github.com/rubima/rubima/issues/435#issuecomment-323501175) | 0057 号 | 未定 |
+| 2018/02 | 0057 号 | https://github.com/rubima/rubima/issues/453 |
 | 2017/09 | RubyKaigi 2017直前特集号 | https://github.com/rubima/rubima/issues/445 |
 | 2017/08 | 0056 号 | https://github.com/rubima/rubima/issues/432 |
 | 2017/03 | 0055 号 | https://github.com/rubima/rubima/issues/418 |
