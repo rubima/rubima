@@ -131,10 +131,12 @@ IoT ブームのなかで IoT サービスそのものではなくて IoT サー
 
 トラック1 の午後4つめのセッションは、とんこつスポンサーの 5社のスピーカーによるスポンサー LT 大会が開催されました。
 
-#### サービス展開を支えるRubyの活用と組織的スケーリングの勝利の鍵」
+#### サービス展開を支えるRubyの活用と組織的スケーリングの勝利の鍵
 
 * 発表者
   * 小芝 敏明 様（[ピクシブ株式会社](https://www.pixiv.co.jp/)）
+* 資料
+  * [サービス展開を支えるRubyの活用と組織的スケーリングの勝利の鍵](https://speakerdeck.com/bash0c7/number-fukuokark02-lt)
 
 #### フロイデのご紹介
 
@@ -150,6 +152,8 @@ IoT ブームのなかで IoT サービスそのものではなくて IoT サー
 
 * 発表者
   * 鳴海 弘輝 様（[GMOペパボ株式会社](https://pepabo.com/)）
+* 資料
+  * [俺たちとペパボとロリポの“やっていき”の話](https://speakerdeck.com/sunecosuri/oretachi-to-pepabo-to-lolipop-no-yatteiki-no-hanashi)
 
 #### 虎の穴とRuby
 
