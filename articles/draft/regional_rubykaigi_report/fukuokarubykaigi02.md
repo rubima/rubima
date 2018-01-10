@@ -138,7 +138,7 @@ Rust の構造体を受け渡す場合構造体の内容はバインディング
 * 資料
   * [Railsチュートリアルを支える継続的組版技術 / Continuous Integration for Ebook](https://speakerdeck.com/yasulab/continuous-integration-for-ebook)
 
-日本語訳のRuby on Rails チュートリアル(以下、Railsチュートリアル)やCoderDojo Japanでおなじみの安川さんの発表です。本発表では電子書籍RailsチュートリアルをRubyで継続的に組版を自動化する技術についてお話し頂きました。今回は特にgumroadを利用して電子書籍を自社で組版して販売する仕組みについてのお話でした。組版には
+日本語訳のRuby on Rails チュートリアル(以下、Railsチュートリアル)やCoderDojo Japanでおなじみの安川さんの発表です。本発表では電子書籍RailsチュートリアルをRubyで継続的に組版を自動化する技術についてお話し頂きました。今回は特にGumroadを利用して電子書籍を自社で組版して販売する仕組みについてのお話でした。組版には
   - 更新
   - 組版
   - 検証
@@ -153,7 +153,7 @@ LaTeXで書いた原稿を更新し、softcoverというgemを使ってEPUB、PD
   - HTML+docset → jnicklas/turnip
 
 を利用して各媒体のページの文字がはみ出していないか等の不備を検証します。
-検証の結果はidobataで通知され、OKの場合はgumroadへ頒布するとのことです。
+検証の結果はidobataで通知され、OKの場合はGumroadへ頒布するとのことです。
 この工程を「継続的」にするにあたり課題になったのがsoftcoverに必要なライブラリのバージョン毎のブレが原因によるページの不備であるとお話されていました。
 (例えば、自分の開発環境だとページの文字はズレていないが他のメンバーの開発環境ではズレている等)
 これを解決するためにDockerで環境を統一し、組版の処理はDockerで実行するようにしているとのことです。
