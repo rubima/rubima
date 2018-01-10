@@ -7,6 +7,7 @@
 * 公式サイト - [福岡Ruby会議02 by Fukuoka.rb & Engineer Lab. Fukuoka](http://regional.rubykaigi.org/fukuoka02/)
 * 公式ハッシュタグ - `#fukuokark02`
 
+書いた人: @nagachika, @bake0937
 
 ## はじめに
 
