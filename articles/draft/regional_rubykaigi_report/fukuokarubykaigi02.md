@@ -20,6 +20,8 @@
 
 ### Opening Talk
 
+![fukuokarubykaigi02/udzura.jpg](発表者写真)
+
 * 発表者
   * 近藤 うちお (@udzura)
 
@@ -27,7 +29,7 @@
 
 ### A Ruby Programming Episode
 
-![](発表者写真)
+![fukuokarubykaigi02/snoozer05.jpg](発表者写真)
 
 * 発表者
   * 島田 浩二 様(@snoozer05)
@@ -39,6 +41,9 @@
 福岡Ruby会議02のテーマである「もう一度、Rubyと出会う」というテーマにとてもマッチした素敵なトークでした。
 
 ### Rubyで書くParser(自力かライブラリか、それが問題だ)
+
+![fukuokarubykaigi02/yotii23.jpg](発表者写真)
+
 * 発表者
   * 鳥井 雪 様(@yotii23)
 * 資料
@@ -57,7 +62,7 @@
 
 ### メドピアの全力Rails化取り組み晒します(めんたいトーク #1)
 
-![](発表者写真)
+![fukuokarubykaigi02/fukumura.jpg](発表者写真)
 
 * 発表者
   * 福村 彰展 様（[メドピア株式会社](https://medpeer.co.jp/) 執行役員 CTO）
@@ -70,7 +75,7 @@
 
 ### Keynote: Finding Ruby Again
 
-![](発表者写真)
+![fukuokarubykaigi02/a_matsuda.jpg](発表者写真)
 
 * 発表者
   * 松田 明 様 (@a\_matsuda)
@@ -90,14 +95,12 @@ Ruby, Rails, RubyKaigi についての非常に内容の濃いキーノートで
 
 ### マネーフォワードにおけるRubyエコシステム事例の紹介と、CTOより福岡の皆様へご挨拶(めんたいトーク #2)
 
-![](発表者写真)
+![fukuokarubykaigi02/nakade.jpg](発表者写真)
+![fukuokarubykaigi02/urabe.jpg](発表者写真)
 
 * 発表者
   * 中出 匠哉 様（[株式会社マネーフォワード](https://corp.moneyforward.com/) CTO）
   * 卜部 昌平 様（同 フルタイムRubyコミッター）
-  * （）
-* 資料
-  * []()
 
 午後最初のトラック1 のセッションはめんたいスポンサーの[株式会社マネーフォワード](https://corp.moneyforward.com/)様のスポンサーセッションでした。
 家計簿サービスと会計サービスを提供しているマネーフォワードではサービスの開発にRailsを利用しており、3名のRuby コミッターも所属していて Ruby 開発者会議の会場提供など Ruby の開発の支援も行なっているそうです。また福岡に開発拠点を置く予定とのことでした。
@@ -106,7 +109,7 @@ Ruby, Rails, RubyKaigi についての非常に内容の濃いキーノートで
 
 ### Rustで書いたライブラリをRuby/mrubyから呼び出す実践的な方法
 
-![](発表者写真)
+![fukuokarubykaigi02/mizzy.jpg](発表者写真)
 
 * 発表者
   * 宮下 剛輔 様（Serverspec Operations）
@@ -121,6 +124,9 @@ Rust の構造体を受け渡す場合構造体の内容はバインディング
 他言語間の呼び出しという高度な内容で、実際のコードを交えての非常に実践的な発表でした。
 
 ### Railsチュートリアルを支える継続的組版技術
+
+![fukuokarubykaigi02/yasulab.jpg](発表者写真)
+
 * 発表者
   * 安川 要平 様(@yasulab)
 * 資料
@@ -152,7 +158,8 @@ LaTeXで書いた原稿を更新し、softcoverというgemを使ってEPUB、PD
 
 ### mockmockを支える技術 (めんたいトーク#3)
 
-![](発表者写真)
+![fukuokarubykaigi02/mouri.jpg](発表者写真)
+![fukuokarubykaigi02/takaze.jpg](発表者写真)
 
 * 発表者
   * 毛利 啓太 様（[株式会社Fusic](https://fusic.co.jp/) 技術開発部門 mockmock開発チーム プロダクトオーナー）
@@ -200,6 +207,9 @@ IoT ブームのなかで IoT サービスそのものではなくて IoT サー
   * 野田 純一 様（[株式会社虎の穴](https://yumenosora.co.jp/) 開発室 課長）
 
 ### コンパイル時計算への招待
+
+![fukuokarubykaigi02/take-cheeze.jpg](発表者写真)
+
 * 発表者
   * take-cheeze 様([@take-cheeze](https://github.com/take-cheeze))
 * 資料
@@ -219,7 +229,7 @@ C++など他の言語で得た技術・知見をRubyでどのように表現す�
 
 ### 200万ドメインのHTTPS化を見据えたmrubyによる大規模証明書管理アーキテクチャ
 
-![](発表者写真)
+![fukuokarubykaigi02/matsumotory.jpg](発表者写真)
 
 * 発表者
   * 松本 亮介 様([GMOペパボ](https://pepabo.com/) シニアプリンシパル)
@@ -233,6 +243,9 @@ C++など他の言語で得た技術・知見をRubyでどのように表現す�
 理路整然とした課題やその解決手段の説明がとてもわかりやすい発表でした。
 
 ### なぜRubyだったのか？Rubyで成長したOSS
+
+![fukuokarubykaigi02/k1LoW.jpg](発表者写真)
+
 * 発表者
   * 小山 健一郎 様([@k1LoW](https://github.com/k1LoW)
 * 資料
@@ -255,12 +268,10 @@ Rubyの魅力に加えてOSS開発のやりがいや魅力、そして様々な�
 
 ### CookpadとRuby(飛び梅トーク)
 
-![](発表者写真)
+![fukuokarubykaigi02/yoshiori.jpg](発表者写真)
 
 * 発表者
   * 庄司 嘉織 様（[クックパッド株式会社](https://cookpad.com/) 技術部部長/エンジニア統括マネージャ）
-* 資料
-  * []()
 
 続いては飛び梅スポンサーのクックパッド株式会社様からのスポンサートーク。
 クックパッドのサービスの世界展開や開発拠点の国際化の紹介から、かつて「世界一巨大なモノリシックRailsサイト」として知られていたクックパッドも近年ではマイクロサービス化を進めているとのことで、多数のオープンソースライブラリやツールの紹介をされていました。
@@ -268,7 +279,7 @@ Rubyの魅力に加えてOSS開発のやりがいや魅力、そして様々な�
 
 ### Keynote: Rubyにおけるトレース機構の刷新
 
-![](発表者写真)
+![fukuokarubykaigi02/ko1.jpg](発表者写真)
 
 * 発表者
   * 笹田 耕一 様
@@ -283,12 +294,9 @@ Ruby には TracePoint (古くは set\_trace\_func) というデバッガやプ�
 Ruby インタプリタ本体の高度な内容でしたが、大部分のユーザーにとっては2.5以降少し高速化されるということで、楽しみです。
 
 
-### Closing Talk
+## 著者について
 
-![](発表者写真)
+* @nagachika
 
-* 発表者
-  * 近藤 うちお (実行委員長)
-
-
+* @bake0937
 
