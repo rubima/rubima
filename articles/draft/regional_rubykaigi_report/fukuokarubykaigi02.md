@@ -299,4 +299,4 @@ Ruby インタプリタ本体の高度な内容でしたが、大部分のユー
 * @nagachika
 
 * @bake0937
-
+北海道出身。大学時代はJava、前職ではVB.NetとPL/SQL、今は仕事で主にRuby、PHP、JavaScriptを書いてます。
