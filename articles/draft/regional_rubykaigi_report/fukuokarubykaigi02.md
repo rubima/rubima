@@ -305,7 +305,8 @@ Ruby インタプリタ本体の高度な内容でしたが、大部分のユー
 
 ## 著者について
 
-* @nagachika
+* [@nagachika](https://twitter.com/nagachika)
+Ruby 安定版メンテナ。 [PB memo](https://d.hatena.ne.jp/nagachika) というブログで毎日 CRuby のコミットの解説を書いています。
 
 * 岡部恭平 ([@bake0937](https://twitter.com/bake0937))
 北海道出身。大学時代はJava、前職ではVB.NetとPL/SQL、今は仕事で主にRuby、PHP、JavaScriptを書いてます。
