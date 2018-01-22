@@ -27,7 +27,7 @@ Ruby と Rails 両方のコミッターである松田さんから「 Ginza.rb �
 
 Ruby on Rails のトップページ ( [http://rubyonrails.org/](http://rubyonrails.org/) には、メニューからは飛べないリンクがあるそうです。そのページ ([http://rubyonrails.org/community/](http://rubyonrails.org/community/)) によると Rails コミュニティとは、 Ruby on Rails ユーザではなく、 Ruby on Rails 開発者のことを指すそうです。Rails コミュニティは以下の 3 つの役割ごとにチームに分かれているそうです。
 
-- Commiters チーム
+- Committers チーム
 - GitHub のプルリクエストや Issue に一次対応する Issue チーム
 - Rails Guides を扱う docrails チーム
 
