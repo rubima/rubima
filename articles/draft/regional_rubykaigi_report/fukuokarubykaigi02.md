@@ -164,7 +164,7 @@ LaTeX で書いた原稿を更新し、softcover という gem を使って EPUB
 ### mockmockを支える技術 (めんたいトーク#3)
 
 ![fukuokarubykaigi02/mouri.jpg](発表者写真)
-![fukuokarubykaigi02/takaze.jpg](発表者写真)
+![fukuokarubykaigi02/takase.jpg](発表者写真)
 
 * 発表者
   * 毛利 啓太 様（[株式会社Fusic](https://fusic.co.jp/) 技術開発部門 mockmock 開発チーム プロダクトオーナー）
