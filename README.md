@@ -4,6 +4,15 @@ this repository is issue tracking of rubima editors team.
 
 If you need any support, please create an issue to the Rubyist Magazine support repository ( https://github.com/rubima/rubima-support ).
 
+## How to contribute
+
+現在、るびま編集部では、次の項目でご協力していただける方を募集しています。ご協力いただける方は、各Issueに対してコメントを下さい。
+
+| 作業内容 | Issue |
+| -------- | ---- |
+| Hotlinks文字起こし | https://github.com/rubima/rubima/issues/456 |
+| るびまのJekyll化 | https://github.com/rubima/magazine.rubyist.net/issues/20 |
+
 ## スケジュール
 
 次号スケジュールは Issue に書くようになりました。
