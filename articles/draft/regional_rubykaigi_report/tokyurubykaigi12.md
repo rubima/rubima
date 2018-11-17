@@ -48,6 +48,10 @@ TokyuRuby 会議は、Ruby に興味のあるエンジニアが集うTokyu.rb �
 
 そして今回はいつもTokyuRubyKaigiを支えてくれているサントリーさんへスタッフより花束をプレゼントしました。
 
+[[tokyurubykaigi12/suntry.jpg]]
+
+[[tokyurubykaigi12/flower.jpg]]
+
 ## LT大会の様子
 
 登壇者も聴衆も酔っ払っていくなか、たくさんの技術的な発表や、継承（相続）の話などが行われました。酔っ払いのみなさんへ数学の問題を出したり、LT中でFDDからRuby 0.49のソースコードを読み込んでビルドするなど個性的な発表がたくさん行われました。
@@ -65,6 +69,10 @@ TokyuRuby 会議は、Ruby に興味のあるエンジニアが集うTokyu.rb �
 みなさんが腕によりをふるったおいしいごはんが並びました。私が食べにいったときはすでに大部分が売り切れでしたが、大理石製のチーズカッターで削ったチーズ、トムヤンクンスープ、アジアンサラダ、鶏肉の煮込み、ラムチョップ、金平糖などをごちそうになりました。
 
 参加者のみなさんからの投票の結果、単品飯王はラムチョップをつくったtagomorisさん、合算飯王はファイナルカレーほかを作ったkwappaさんが受賞しました！
+
+[[tokyurubykaigi12/kings1.jpg]]
+
+[[tokyurubykaigi12/kings2.jpg]]
 
 ## TokyuRuby 会議実行委員長システム
 
@@ -92,4 +100,4 @@ TokyuRuby 会議 11 では @igaiga555 、
 ## 著者について
 五十嵐 邦明 (@igaiga555)
 TokyuRuby会議12 レポート係。
-フリーランスのRailsエンジニア。Railsの教科書を書きました。Rubyの教科書（仮）を書いてます。
+フリーランスのRailsエンジニア。著書に[Railsの教科書](https://tatsu-zine.com/books/rails-textbook) 、[ゼロからわかるRuby超入門](https://www.amazon.co.jp/dp/4297101238)があります。
