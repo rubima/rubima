@@ -74,6 +74,8 @@ TokyuRuby 会議は、Ruby に興味のあるエンジニアが集うTokyu.rb �
 
 [[tokyurubykaigi12/kings2.jpg]]
 
+写真(撮影: @koichiroo ) [[https://www.flickr.com/photos/koichiroo/sets/72157698693632421/]]
+
 ## TokyuRuby 会議実行委員長システム
 
 TokyuRuby 会議 06 までは実行委員長は @ginkouno 、
